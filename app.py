@@ -43,7 +43,7 @@ with st.container():
     gpt35turbo_record = load_next_record(gpt35turbo_df, st.session_state.rec)
 
     st.header("Machine Learning Engineer")
-
+    golden_df2 = pd.DataFrame()
     
     st.subheader("Competences list")
     for item in cleaned_items:
@@ -79,3 +79,6 @@ with st.container():
     
 
 st.sidebar.write(f"Record {st.session_state.rec+1} of {len(gpt35turbo_df)}")
+data_as_csv= golden_df.to_csv(index=False).encode("utf-8")
+st.sidebar.download_button(label="Download",data=data_as_csv,file_name="ksa.csv",mime="text/csv")
+
