@@ -48,15 +48,17 @@ with st.container():
     st.subheader("Competences list")
     for item in cleaned_items:
         if item in golden_df["Text"].values:
-            index = golden_df.index[golden_df["Text"] == item].tolist()[0]
-            if golden_df.at[index, 'Label'] == "Knowledge":
-                st.write(item + " 🟢")
-            elif golden_df.at[index, 'Label'] == "Skill":
-                st.write(item + " 🔵")
-            elif golden_df.at[index, 'Label'] == "Ability":
-                st.write(item + " 🟡")
-            else:
-                st.write(item + " ⚪️")
+            pass
+            # index = golden_df.index[golden_df["Text"] == item].tolist()[0]
+            # if golden_df.at[index, 'Label'] == "Knowledge":
+            #     st.write(item + " 🟢")
+            # elif golden_df.at[index, 'Label'] == "Skill":
+            #     st.write(item + " 🔵")
+            # elif golden_df.at[index, 'Label'] == "Ability":
+            #     st.write(item + " 🟡")
+            # else:
+            #     st.write(item + " ⚪️")
+            
         else:
             st.write(item + " 🔴")
             col1, col2, col3, col4, col5 = st.columns([1,1,1,1,8])
