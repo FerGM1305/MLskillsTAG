@@ -60,21 +60,21 @@ with st.container():
             col1, col2, col3, col4 = st.columns([1,1,1,9])
             with col1:
                 if st.button("K", key = item + "k"):
-                    new_row = {'Label': "Knowledge", 'Text': item, 'Desc': f"What {item} is."}
-                    golden_df = golden_df.append(new_row, ignore_index=True)
-                    golden_df.to_csv("golden_ksa.csv", index=False)
+                    new_row = pd.DataFrame({'Label': ["Knowledge"], 'Text': [item], 'Desc': [item]})
+                    golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
+                    golden_df2.to_csv("golden_ksa.csv", index=False)
                     st.rerun()
             with col2:
                 if st.button("S", key = item + "s"):
-                    new_row = {'Label': "Skill", 'Text': item, 'Desc': f"What {item} is."}
-                    golden_df = golden_df.append(new_row, ignore_index=True)
-                    golden_df.to_csv("golden_ksa.csv", index=False)
+                    new_row = pd.DataFrame({'Label': ["Skill"], 'Text': [item], 'Desc': [item]})
+                    golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
+                    golden_df2.to_csv("golden_ksa.csv", index=False)
                     st.rerun()
             with col3:
                 if st.button("A", key = item + "a"):
-                    new_row = {'Label': "Ability", 'Text': item, 'Desc': f"What {item} is."}
-                    golden_df = golden_df.append(new_row, ignore_index=True)
-                    golden_df.to_csv("golden_ksa.csv", index=False)
+                    new_row = pd.DataFrame({'Label': ["Ability"], 'Text': [item], 'Desc': [item]})
+                    golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
+                    golden_df2.to_csv("golden_ksa.csv", index=False)
                     st.rerun()
     
 
