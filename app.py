@@ -51,9 +51,9 @@ with st.container():
             index = golden_df.index[golden_df["Text"] == item].tolist()[0]
             if golden_df.at[index, 'Label'] == "Knowledge":
                 st.write(item + " 🟢")
-            if golden_df.at[index, 'Label'] == "Skill":
+            elif golden_df.at[index, 'Label'] == "Skill":
                 st.write(item + " 🔵")
-            if golden_df.at[index, 'Label'] == "Ability":
+            elif golden_df.at[index, 'Label'] == "Ability":
                 st.write(item + " 🟡")
             else:
                 st.write(item + " ⚪️")
