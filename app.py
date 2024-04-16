@@ -12,6 +12,9 @@ gpt35turbo_df = pd.read_csv(gpt35turbo_csv)
 golden_csv = "./golden_ksa.csv"
 golden_df = pd.read_csv(golden_csv)
 
+nesta_csv = "./nesta_ksa.csv"
+nesta_df = pd.read_csv(nesta_csv)
+
 # Load next record from dataframe
 def load_next_record(gpt35turbo_df, index):
     gpt35turbo_record = gpt35turbo_df["competences_llm"][index]
@@ -69,19 +72,28 @@ with st.container():
         st.subheader("Competences list")
         i = 0
         for item in cleaned_items:
-            
             if item in golden_df["Text"].values:
-                pass
                 if showAnnotated:
                     index = golden_df.index[golden_df["Text"] == item].tolist()[0]
                     if golden_df.at[index, 'Label'] == "Knowledge":
-                        st.write(item + " 🟢")
+                        st.write(item + " 🟢 (golden)")
                     elif golden_df.at[index, 'Label'] == "Skill":
-                        st.write(item + " 🔵")
-                    elif golden_df.at[index, 'Label'] == "Ability":
-                        st.write(item + " 🟡")
+                        st.write(item + " 🔵 (golden)")
+                    elif golden_df.at[index, 'Label'] == "Ability": 
+                        st.write(item + " 🟡 (golden)")
                     else:
-                        st.write(item + " ⚪️")
+                        st.write(item + " ⚪️ (golden)")
+            elif item in nesta_df["Text"].values:
+                if showAnnotated:
+                    index = nesta_df.index[nesta_df["Text"] == item].tolist()[0]
+                    if nesta_df.at[index, 'Label'] == "Knowledge":
+                        st.write(item + " 🟢 (nesta)")
+                    elif nesta_df.at[index, 'Label'] == "Skill":
+                        st.write(item + " 🔵 (nesta)")
+                    elif nesta_df.at[index, 'Label'] == "Ability": 
+                        st.write(item + " 🟡 (nesta)")
+                    else:
+                        st.write(item + " ⚪️ (nesta)")
                 
             else:
                 st.write(item + " 🔴")
