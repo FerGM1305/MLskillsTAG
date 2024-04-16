@@ -55,6 +55,8 @@ with st.container():
                 st.write(item + " 🔵")
             if golden_df.at[index, 'Label'] == "Ability":
                 st.write(item + " 🟡")
+            else:
+                st.write(item + " ⚪️")
         else:
             st.write(item + " 🔴")
             col1, col2, col3, col4, col5 = st.columns([1,1,1,1,8])
