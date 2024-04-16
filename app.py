@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-from streamlit_js_eval import streamlit_js_eval
-
 
 st.set_page_config(layout="wide")
 
@@ -65,19 +63,19 @@ with st.container():
                     new_row = {'Label': "Knowledge", 'Text': item, 'Desc': f"What {item} is."}
                     golden_df = golden_df.append(new_row, ignore_index=True)
                     golden_df.to_csv("golden_ksa.csv", index=False)
-                    streamlit_js_eval(js_expressions="parent.window.location.reload()")
+                    st.rerun()
             with col2:
                 if st.button("S", key = item + "s"):
                     new_row = {'Label': "Skill", 'Text': item, 'Desc': f"What {item} is."}
                     golden_df = golden_df.append(new_row, ignore_index=True)
                     golden_df.to_csv("golden_ksa.csv", index=False)
-                    streamlit_js_eval(js_expressions="parent.window.location.reload()")
+                    st.rerun()
             with col3:
                 if st.button("A", key = item + "a"):
                     new_row = {'Label': "Ability", 'Text': item, 'Desc': f"What {item} is."}
                     golden_df = golden_df.append(new_row, ignore_index=True)
                     golden_df.to_csv("golden_ksa.csv", index=False)
-                    streamlit_js_eval(js_expressions="parent.window.location.reload()")
+                    st.rerun()
     
 
 st.sidebar.write(f"Record {st.session_state.rec+1} of {len(gpt35turbo_df)}")
