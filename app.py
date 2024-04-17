@@ -70,6 +70,7 @@ def ngrams(input_str, n):
     # Generate n-grams from the input string
     input_str = input_str.lower()
     return zip_longest(*[input_str[i:] for i in range(n)], fillvalue='')
+
  
 def character_ngram_similarity(word1, word2, n):
     if not(isinstance(word1, str)) or not(isinstance(word2, str)):
@@ -111,7 +112,9 @@ def getSimilarFuzz(_item):
         sim = fuzz_similarity(golden, _item)
         if sim > 70:
             #_sim.add(golden + " (" + str(sim) + ")")
-            _sim.add(golden)
+            index = golden_df.index[golden_df["Text"] == golden].tolist()[0]
+            _ksa = golden_df.at[index, 'Label']
+            _sim.add((_ksa,golden))
     return list(_sim)
 
 
@@ -227,7 +230,7 @@ with st.container():
                         color: black;
                     }""",
                 ):
-                    if st.button(similar_item[1], key = str(similar_item) + str(i)):
+                    if st.button(similar_item[1], key = str(similar_item[1]) + str(i)):
                         #mark it
                         new_row = pd.DataFrame({'Label': [similar_item[0]], 'Text': [item], 'Standard text': [similar_item[1]], 'Desc': [similar_item[1]]})
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
@@ -247,9 +250,12 @@ with st.container():
                         color: black;
                     }""",
                 ):
-                    if st.button(similar_item, key = str(similar_item) + str(i)):
+                    if st.button(similar_item[1], key = str(similar_item[1]) + str(i)):
                         #mark it
-                        st.write("a")
+                        new_row = pd.DataFrame({'Label': [similar_item[0]], 'Text': [item], 'Standard text': [similar_item[1]], 'Desc': [similar_item[1]]})
+                        golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
+                        golden_df2.to_csv("golden_ksa.csv", index=False)
+                        st.rerun()
 
             st.divider()
 

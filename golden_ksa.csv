@@ -76,6 +76,7 @@ Skill,Collaboration,Collaboration,"Emotional intelligence (self-awareness, self-
 Abilities,Commitment,Commitment,Commitment
 Skill,Communication,Communication,"Convey and exchange thoughts, ideas and information effectively through various mediums and approaches"
 Skill,Communication,Communication,"Clarification, Assertiveness"
+Skill,Good communication skills,Communication,"Clarification, Assertiveness"
 Skills,Comprehension,Comprehension,Comprehension
 Knowledge,Computational modeling,Computational modeling,Computational modeling
 Skill,Computational modelling,Computational modelling,"Develop, select and apply algorithms and advanced computational methods to enable systems or software agents to learn, improve, adapt and produce desired outcomes or tasks. This also involves the interpretation of data, including the application of data modelling techniques to explore and address a specific issues or requirements"
@@ -144,7 +145,6 @@ Skill,Data visualisation,Data visualisation,"Implement contemporary techniques, 
 Knowledge,Data visualisation,Data visualisation,"Initiative, Reliability"
 Skill,Data Visualisation and Storyboarding,Data Visualisation and Storyboarding,"Implement contemporary techniques, dynamic visual displays with illustrative and interactive graphics to present patterns, trends, analytical insights from data or new concepts in a strategic manner for the intended audience"
 Knowledge,Data Visualisation and Storyboarding,Data Visualisation and Storyboarding,"Initiative, Reliability"
-Knowledge,Data visualization,Data visualization,Data visualization
 Knowledge,Data visualization,Data visualization,Data visualization
 Skill,Database Administration,Database Administration,"Perform Installation, coordination and upgrading of databases and database servers, performance monitoring and troubleshooting. This includes monitoring user access to database and optimisation of database performance, planning for backup and recovery, archived data maintenance and reporting"
 Knowledge,Database Administration,Database Administration,"Acumen (Sagacity and shrewness), Attention to Details"
