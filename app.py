@@ -1,5 +1,11 @@
 import streamlit as st
 import pandas as pd
+from itertools import zip_longest
+import math
+from thefuzz import fuzz
+from thefuzz import process
+from streamlit_extras.stylable_container import stylable_container
+
 
 st.set_page_config(layout="wide")
 
@@ -51,10 +57,62 @@ sliderProgress = st.sidebar.slider('p', 1, len(gpt35turbo_df), st.session_state.
 
 showAnnotated = st.sidebar.checkbox('Show annotated')
 
+st.sidebar.write("Annotated KSA: " + str(len(golden_df)))
+
 data_as_csv= golden_df.to_csv(index=False).encode("utf-8")
 st.sidebar.download_button(label="Download",data=data_as_csv,file_name="ksa.csv",mime="text/csv")
 
 
+
+# ngrams 
+
+def ngrams(input_str, n):
+    # Generate n-grams from the input string
+    input_str = input_str.lower()
+    return zip_longest(*[input_str[i:] for i in range(n)], fillvalue='')
+ 
+def character_ngram_similarity(word1, word2, n):
+    if not(isinstance(word1, str)) or not(isinstance(word2, str)):
+        return 0
+    # Calculate character n-gram similarity
+    ngrams_word1 = set(ngrams(word1, n))
+    ngrams_word2 = set(ngrams(word2, n))
+ 
+    common_ngrams = ngrams_word1 & ngrams_word2
+    similarity = len(common_ngrams) / max(len(ngrams_word1), len(ngrams_word2))
+ 
+    return similarity
+
+def getSimilarNgrams(_item):
+    _sim = set()
+    for golden in golden_df["Text"].values:
+        sim = character_ngram_similarity(golden, _item, 2)
+
+        
+
+        if sim > 0.5:
+            index = golden_df.index[golden_df["Text"] == golden].tolist()[0]
+            #_sim.add(golden)
+            _ksa = golden_df.at[index, 'Label']
+            _sim.add((_ksa,golden))
+    return list(_sim)
+
+
+# thefuzz
+
+def fuzz_similarity(word1, word2):
+    #return fuzz.ratio(word1, word2)
+    #return fuzz.partial_token_sort_ratio(word1, word2)
+    return fuzz.token_sort_ratio(word1, word2)
+
+def getSimilarFuzz(_item):
+    _sim = set()
+    for golden in golden_df["Text"].values:
+        sim = fuzz_similarity(golden, _item)
+        if sim > 70:
+            #_sim.add(golden + " (" + str(sim) + ")")
+            _sim.add(golden)
+    return list(_sim)
 
 
 with st.container():
@@ -65,70 +123,144 @@ with st.container():
     st.header("Machine Learning Engineer")
     golden_df2 = pd.DataFrame()
     
-    o_col1, o_col2 = st.columns([1,1])
+    st.subheader("Competences list")
+    i = 0
+    for item in cleaned_items:
 
-    with o_col1:
+        similar_ngrams = []
+        similar_thefuzz = []
 
-        st.subheader("Competences list")
-        i = 0
-        for item in cleaned_items:
-            if item in golden_df["Text"].values:
-                if showAnnotated:
-                    index = golden_df.index[golden_df["Text"] == item].tolist()[0]
-                    if golden_df.at[index, 'Label'] == "Knowledge":
-                        st.write(item + " 🟢 (golden)")
-                    elif golden_df.at[index, 'Label'] == "Skill":
-                        st.write(item + " 🔵 (golden)")
-                    elif golden_df.at[index, 'Label'] == "Ability": 
-                        st.write(item + " 🟡 (golden)")
-                    else:
-                        st.write(item + " ⚪️ (golden)")
-            elif item in nesta_df["Text"].values:
-                if showAnnotated:
-                    index = nesta_df.index[nesta_df["Text"] == item].tolist()[0]
-                    if nesta_df.at[index, 'Label'] == "Knowledge":
-                        st.write(item + " 🟢 (nesta)")
-                    elif nesta_df.at[index, 'Label'] == "Skill":
-                        st.write(item + " 🔵 (nesta)")
-                    elif nesta_df.at[index, 'Label'] == "Ability": 
-                        st.write(item + " 🟡 (nesta)")
-                    else:
-                        st.write(item + " ⚪️ (nesta)")
-                
-            else:
-                st.write(item + " 🔴")
-                col1, col2, col3, col4, col5 = st.columns([1,1,1,1,8])
-                with col1:
+        if item in golden_df["Text"].values:
+            if showAnnotated:
+                index = golden_df.index[golden_df["Text"] == item].tolist()[0]
+                if golden_df.at[index, 'Label'] == "Knowledge":
+                    st.write(item + " 🟢 (golden)")
+                elif golden_df.at[index, 'Label'] == "Skill":
+                    st.write(item + " 🔵 (golden)")
+                elif golden_df.at[index, 'Label'] == "Ability": 
+                    st.write(item + " 🟡 (golden)")
+                else:
+                    st.write(item + " ⚪️ (golden)")
+                st.divider()
+        elif item in nesta_df["Text"].values:
+            if showAnnotated:
+                index = nesta_df.index[nesta_df["Text"] == item].tolist()[0]
+                if nesta_df.at[index, 'Label'] == "Knowledge":
+                    st.write(item + " 🟢 (nesta)")
+                elif nesta_df.at[index, 'Label'] == "Skill":
+                    st.write(item + " 🔵 (nesta)")
+                elif nesta_df.at[index, 'Label'] == "Ability": 
+                    st.write(item + " 🟡 (nesta)")
+                else:
+                    st.write(item + " ⚪️ (nesta)")
+                st.divider()
+        else:
+            st.write(item + " 🔴")
+            col1, col2, col3, col4, col5 = st.columns([1,1,1,1,8])
+            with col1:
+                with stylable_container(
+                    "greenK",
+                    css_styles="""
+                    button {
+                        background-color: #0ead69;
+                        color: white;
+                    }""",
+                ):
                     if st.button("K", key = item + "k" + str(i)):
                         new_row = pd.DataFrame({'Label': ["Knowledge"], 'Text': [item], 'Desc': [item]})
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
                         golden_df2.to_csv("golden_ksa.csv", index=False)
                         st.rerun()
-                with col2:
+            with col2:
+                with stylable_container(
+                    "blueS",
+                    css_styles="""
+                    button {
+                        background-color: #00a6fb;
+                        color: white;
+                    }""",
+                ):
                     if st.button("S", key = item + "s" + str(i)):
                         new_row = pd.DataFrame({'Label': ["Skill"], 'Text': [item], 'Desc': [item]})
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
                         golden_df2.to_csv("golden_ksa.csv", index=False)
                         st.rerun()
-                with col3:
+            with col3:
+                with stylable_container(
+                    "yellowA",
+                    css_styles="""
+                    button {
+                        background-color: #ffd60a;
+                        color: white;
+                    }""",
+                ):
                     if st.button("A", key = item + "a" + str(i)):
                         new_row = pd.DataFrame({'Label': ["Ability"], 'Text': [item], 'Desc': [item]})
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
                         golden_df2.to_csv("golden_ksa.csv", index=False)
                         st.rerun()
-                with col4:
+            with col4:
+                with stylable_container(
+                    "grayO",
+                    css_styles="""
+                    button {
+                        background-color: #666;
+                        color: white;
+                    }""",
+                ):
                     if st.button("O", key = item + "o" + str(i)):
                         new_row = pd.DataFrame({'Label': ["Other"], 'Text': [item], 'Desc': [item]})
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
                         golden_df2.to_csv("golden_ksa.csv", index=False)
                         st.rerun()
 
-            i += 1
+            #ngrams
+            #st.write("ngrams (2)")
+            similar_ngrams = getSimilarNgrams(item)
+            for similar_item in  similar_ngrams:
+                i+=1
+                with stylable_container(
+                    "ngram",
+                    css_styles="""
+                    button {
+                        background-color: #ff9b54;
+                        color: black;
+                    }""",
+                ):
+                    if st.button(similar_item[1], key = str(similar_item) + str(i)):
+                        #mark it
+                        new_row = pd.DataFrame({'Label': [similar_item[0]], 'Text': [item], 'Standard text': [similar_item[1]], 'Desc': [similar_item[1]]})
+                        golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
+                        golden_df2.to_csv("golden_ksa.csv", index=False)
+                        st.rerun()
 
-    with o_col2:
-        st.subheader("Original job post description")
-        st.write(job_desc)
-        st.divider()
-        st.page_link(gpt35turbo_df["job_google_link"][st.session_state.rec], label="Job google link", icon="📄")
-        st.page_link(gpt35turbo_df["job_apply_link"][st.session_state.rec], label="Job apply link", icon="📋")
-    
+            #thefuzz
+            #st.write("thefuzz")
+            similar_thefuzz = getSimilarFuzz(item)
+            for similar_item in  similar_thefuzz:
+                i+=1
+                with stylable_container(
+                    "thefuzz",
+                    css_styles="""
+                    button {
+                        background-color: #ff7f51;
+                        color: black;
+                    }""",
+                ):
+                    if st.button(similar_item, key = str(similar_item) + str(i)):
+                        #mark it
+                        st.write("a")
+
+            st.divider()
+
+        i += 1
+
+   
+
+with st.container():
+    st.divider()
+    st.subheader("Original job post description")
+    st.write(job_desc)
+    st.divider()
+    st.page_link(gpt35turbo_df["job_google_link"][st.session_state.rec], label="Job google link", icon="📄")
+    st.page_link(gpt35turbo_df["job_apply_link"][st.session_state.rec], label="Job apply link", icon="📋")
