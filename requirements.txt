@@ -1,2 +1,3 @@
 pandas
 thefuzz
+streamlit_extras
