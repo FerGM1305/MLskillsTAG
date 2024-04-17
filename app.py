@@ -51,9 +51,8 @@ job_desc = gpt35turbo_df["job_description"][st.session_state.rec].strip()
 def updateRec():
     st.session_state.rec = st.session_state.theSliderProgress
 
-st.sidebar.write(f"Record {st.session_state.rec+1} of {len(gpt35turbo_df)}")
 
-sliderProgress = st.sidebar.slider('p', 1, len(gpt35turbo_df), st.session_state.rec+1, on_change=updateRec, key="theSliderProgress")
+sliderProgress = st.sidebar.slider(f"Record {st.session_state.rec+1} of {len(gpt35turbo_df)}", 1, len(gpt35turbo_df), st.session_state.rec+1, on_change=updateRec, key="theSliderProgress")
 
 showAnnotated = st.sidebar.checkbox('Show annotated')
 
