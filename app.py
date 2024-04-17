@@ -169,7 +169,7 @@ with st.container():
                     }""",
                 ):
                     if st.button("K", key = item + "k" + str(i)):
-                        new_row = pd.DataFrame({'Label': ["Knowledge"], 'Text': [item], 'Desc': [item]})
+                        new_row = pd.DataFrame({'Label': ["Knowledge"], 'Text': [item], 'Standard text': [item], 'Desc': [item]})
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
                         golden_df2.to_csv("golden_ksa.csv", index=False)
                         st.rerun()
@@ -183,7 +183,7 @@ with st.container():
                     }""",
                 ):
                     if st.button("S", key = item + "s" + str(i)):
-                        new_row = pd.DataFrame({'Label': ["Skill"], 'Text': [item], 'Desc': [item]})
+                        new_row = pd.DataFrame({'Label': ["Skill"], 'Text': [item], 'Standard text': [item], 'Desc': [item]})
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
                         golden_df2.to_csv("golden_ksa.csv", index=False)
                         st.rerun()
@@ -197,7 +197,7 @@ with st.container():
                     }""",
                 ):
                     if st.button("A", key = item + "a" + str(i)):
-                        new_row = pd.DataFrame({'Label': ["Ability"], 'Text': [item], 'Desc': [item]})
+                        new_row = pd.DataFrame({'Label': ["Ability"], 'Text': [item], 'Standard text': [item], 'Desc': [item]})
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
                         golden_df2.to_csv("golden_ksa.csv", index=False)
                         st.rerun()
@@ -211,7 +211,7 @@ with st.container():
                     }""",
                 ):
                     if st.button("O", key = item + "o" + str(i)):
-                        new_row = pd.DataFrame({'Label': ["Other"], 'Text': [item], 'Desc': [item]})
+                        new_row = pd.DataFrame({'Label': ["Other"], 'Text': [item], 'Standard text': [item], 'Desc': [item]})
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
                         golden_df2.to_csv("golden_ksa.csv", index=False)
                         st.rerun()
