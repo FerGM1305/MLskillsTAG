@@ -33,7 +33,8 @@ def load_next_occ(_occ_df, index):
 occ = load_next_occ(occ_df,st.session_state['occ'])
 
 
-gpt35turbo_csv = f"../infocomm/3-abril-2024-processed/{occ[1]}_competences_llm.csv"
+gpt35turbo_csv = f"./infocomm_jsearch_jobposts/3-abril-2024-processed/{occ[1]}_competences_llm.csv"
+#gpt35turbo_csv = f"../infocomm/3-abril-2024-processed/{occ[1]}_competences_llm.csv"
 #gpt35turbo_csv = "../infocomm_jsearch_jobposts/3-abril-2024-processed/Data%20science%20engineer_competences_llm.csv"
 gpt35turbo_df = pd.read_csv(gpt35turbo_csv)
 
