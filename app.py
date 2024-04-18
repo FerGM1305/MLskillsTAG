@@ -57,7 +57,10 @@ job_desc = gpt35turbo_df["job_description"][st.session_state.rec].strip()
 def updateRec():
     st.session_state.rec = st.session_state.theSliderProgress
 
+def updateOcc():
+    st.session_state.occ = st.session_state.theSliderProgressOcc
 
+sliderProgressOcc = st.sidebar.slider(f"Occ {st.session_state.occ+1} of {len(occ_df)}", 1, len(occ_df), st.session_state.occ+1, on_change=updateOcc, key="theSliderProgressOcc")
 if st.sidebar.button('Next occ', key='nextOcc'):
     st.session_state.occ += 1
     if st.session_state.occ >= len(occ_df):
