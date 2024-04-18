@@ -12,14 +12,30 @@ st.set_page_config(layout="wide")
 if 'rec' not in st.session_state:
     st.session_state['rec'] = 0
 
-gpt35turbo_csv = "./Machine%20Learning%20engineer_competences_llm.csv"
-gpt35turbo_df = pd.read_csv(gpt35turbo_csv)
+if 'occ' not in st.session_state:
+    st.session_state['occ'] = 0
+
 
 golden_csv = "./golden_ksa.csv"
 golden_df = pd.read_csv(golden_csv)
 
-nesta_csv = "./nesta_ksa.csv"
-nesta_df = pd.read_csv(nesta_csv)
+#nesta_csv = "./nesta_ksa.csv"
+#nesta_df = pd.read_csv(nesta_csv)
+
+occ_csv = "./infocomm_occupations.csv"
+occ_df = pd.read_csv(occ_csv)
+
+
+def load_next_occ(_occ_df, index):
+    _occ = (_occ_df["Occupation"][index],_occ_df["OccupationQS"][index])
+    return _occ
+
+occ = load_next_occ(occ_df,st.session_state['occ'])
+
+
+gpt35turbo_csv = f"../infocomm/3-abril-2024-processed/{occ[1]}_competences_llm.csv"
+#gpt35turbo_csv = "../infocomm_jsearch_jobposts/3-abril-2024-processed/Data%20science%20engineer_competences_llm.csv"
+gpt35turbo_df = pd.read_csv(gpt35turbo_csv)
 
 # Load next record from dataframe
 def load_next_record(gpt35turbo_df, index):
@@ -27,17 +43,6 @@ def load_next_record(gpt35turbo_df, index):
     return gpt35turbo_record
 
 
-
-if st.sidebar.button('Next'):
-    st.session_state.rec += 1
-    if st.session_state.rec >= len(gpt35turbo_df):
-        st.session_state.rec = 0
-
-if st.session_state.rec > 0:
-    if st.sidebar.button('Prev'):
-        st.session_state.rec -= 1
-        if st.session_state.rec < 0:
-            st.session_state.rec = 0
 
 cleaned_items = []
 for item in gpt35turbo_df["competences_llm"][st.session_state.rec].strip().split("\n"):
@@ -52,7 +57,31 @@ def updateRec():
     st.session_state.rec = st.session_state.theSliderProgress
 
 
+if st.sidebar.button('Next occ', key='nextOcc'):
+    st.session_state.occ += 1
+    if st.session_state.occ >= len(occ_df):
+        st.session_state.occ = 0
+
+if st.session_state.occ > 0:
+    if st.sidebar.button('Prev occ'):
+        st.session_state.occ -= 1
+        if st.session_state.occ < 0:
+            st.session_state.occ = 0
+
+
+st.sidebar.title(occ[0])
+
 sliderProgress = st.sidebar.slider(f"Record {st.session_state.rec+1} of {len(gpt35turbo_df)}", 1, len(gpt35turbo_df), st.session_state.rec+1, on_change=updateRec, key="theSliderProgress")
+if st.sidebar.button('Next rec'):
+    st.session_state.rec += 1
+    if st.session_state.rec >= len(gpt35turbo_df):
+        st.session_state.rec = 0
+
+if st.session_state.rec > 0:
+    if st.sidebar.button('Prev rec'):
+        st.session_state.rec -= 1
+        if st.session_state.rec < 0:
+            st.session_state.rec = 0
 
 showAnnotated = st.sidebar.checkbox('Show annotated')
 
@@ -122,7 +151,6 @@ with st.container():
     # Load next record
     gpt35turbo_record = load_next_record(gpt35turbo_df, st.session_state.rec)
 
-    st.header("Machine Learning Engineer")
     golden_df2 = pd.DataFrame()
     
     st.subheader("Competences list")
@@ -144,18 +172,18 @@ with st.container():
                 else:
                     st.write(item + " ⚪️ (golden)")
                 st.divider()
-        elif item in nesta_df["Text"].values:
-            if showAnnotated:
-                index = nesta_df.index[nesta_df["Text"] == item].tolist()[0]
-                if nesta_df.at[index, 'Label'] == "Knowledge":
-                    st.write(item + " 🟢 (nesta)")
-                elif nesta_df.at[index, 'Label'] == "Skill":
-                    st.write(item + " 🔵 (nesta)")
-                elif nesta_df.at[index, 'Label'] == "Ability": 
-                    st.write(item + " 🟡 (nesta)")
-                else:
-                    st.write(item + " ⚪️ (nesta)")
-                st.divider()
+        # elif item in nesta_df["Text"].values:
+        #     if showAnnotated:
+        #         index = nesta_df.index[nesta_df["Text"] == item].tolist()[0]
+        #         if nesta_df.at[index, 'Label'] == "Knowledge":
+        #             st.write(item + " 🟢 (nesta)")
+        #         elif nesta_df.at[index, 'Label'] == "Skill":
+        #             st.write(item + " 🔵 (nesta)")
+        #         elif nesta_df.at[index, 'Label'] == "Ability": 
+        #             st.write(item + " 🟡 (nesta)")
+        #         else:
+        #             st.write(item + " ⚪️ (nesta)")
+        #         st.divider()
         else:
             st.write(item + " 🔴")
             col1, col2, col3, col4, col5 = st.columns([1,1,1,1,8])
