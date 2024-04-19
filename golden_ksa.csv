@@ -921,23 +921,27 @@ Skill,Understanding manufacturing processes,Comprehension,Comprehension
 Skill,Deep understanding of supply chain functions,Comprehension,Comprehension
 Skill,Generation of communication strategies in social networks,Communication,Communication
 Skill,Ability to learn and adapt to new tasks and responsibilities,Adaptability,Adaptability
-Knowledge,Experience in Azure Cloud Platform and its services,Experience in Azure Cloud Platform and its services,Experience in Azure Cloud Platform and its services
-Knowledge,Experience in building Infrastructure as Code (IaC) using Terraform,Experience in building Infrastructure as Code (IaC) using Terraform,Experience in building Infrastructure as Code (IaC) using Terraform
-Knowledge,Experience in Docker and Containerization,Experience in Docker and Containerization,Experience in Docker and Containerization
-Knowledge,Experience in working with Kubernetes cluster,Experience in working with Kubernetes cluster,Experience in working with Kubernetes cluster
-Knowledge,Experience in deploying Applications using Helm Charts,Experience in deploying Applications using Helm Charts,Experience in deploying Applications using Helm Charts
-Knowledge,Experience creating Continuous Integration (CI) builds and deployment automation,Experience creating Continuous Integration (CI) builds and deployment automation,Experience creating Continuous Integration (CI) builds and deployment automation
-Knowledge,Experience with Azure DevOps Repos and Pipelines,Experience with Azure DevOps Repos and Pipelines,Experience with Azure DevOps Repos and Pipelines
-Knowledge,"Knowledge of Continuous Integration, Continuous Delivery, and Continuous Monitoring","Knowledge of Continuous Integration, Continuous Delivery, and Continuous Monitoring","Knowledge of Continuous Integration, Continuous Delivery, and Continuous Monitoring"
-Knowledge,Knowledge of Infrastructure as Code and Configuration as Code,Knowledge of Infrastructure as Code and Configuration as Code,Knowledge of Infrastructure as Code and Configuration as Code
-Knowledge,Knowledge of Quality Gates and automation for improving quality,Knowledge of Quality Gates and automation for improving quality,Knowledge of Quality Gates and automation for improving quality
-Knowledge,"Knowledge of cloud services deployment, monitoring, and debugging","Knowledge of cloud services deployment, monitoring, and debugging","Knowledge of cloud services deployment, monitoring, and debugging"
-Knowledge,Knowledge of Azure Cloud Platform and its services,Knowledge of Azure Cloud Platform and its services,Knowledge of Azure Cloud Platform and its services
-Knowledge,Knowledge of Docker and Containerization,Knowledge of Docker and Containerization,Knowledge of Docker and Containerization
-Knowledge,Knowledge of Kubernetes cluster and deploying Applications using Helm Charts,Knowledge of Kubernetes cluster and deploying Applications using Helm Charts,Knowledge of Kubernetes cluster and deploying Applications using Helm Charts
-Knowledge,Knowledge of deployment techniques such as blue-green and canary,Knowledge of deployment techniques such as blue-green and canary,Knowledge of deployment techniques such as blue-green and canary
-Knowledge,Knowledge of Azure DevOps Repos and Pipelines,Knowledge of Azure DevOps Repos and Pipelines,Knowledge of Azure DevOps Repos and Pipelines
-Knowledge,Previous experience as a Software Engineer,Previous experience as a Software Engineer,Previous experience as a Software Engineer
+Knowledge,Experience in Azure Cloud Platform and its services,Azure Cloud Platform,Experience in Azure Cloud Platform and its services
+Knowledge,Experience in building Infrastructure as Code (IaC) using Terraform,Infrastructure as Code (IaC),Experience in building Infrastructure as Code (IaC) using Terraform
+Knowledge,Experience in Terraform,Terraform,Experience in Terraform
+Knowledge,Experience in Docker and Containerization,Docker,Experience in Docker and Containerization
+Knowledge,Experience in working with Kubernetes cluster,Kubernetes,Experience in working with Kubernetes cluster
+Knowledge,Experience in deploying Applications using Helm Charts,Helm Charts,Experience in deploying Applications using Helm Charts
+Knowledge,Experience creating Continuous Integration (CI) builds and deployment automation,Continuous Integration (CI),Experience creating Continuous Integration (CI) builds and deployment automation
+Knowledge,Experience with Azure DevOps Repos and Pipelines,Azure,Experience with Azure DevOps Repos and Pipelines
+Knowledge,"Knowledge of Continuous Integration, Continuous Delivery, and Continuous Monitoring",Continuous Integration,"Knowledge of Continuous Integration"
+Knowledge,"Knowledge of Continuous Delivery",Continuous Delivery,"Knowledge of Continuous Delivery"
+Knowledge,"Knowledge of Continuous Monitoring",Continuous Monitoring,"Knowledge of Continuous Monitoring"
+Knowledge,Knowledge of Infrastructure as Code and Configuration as Code,Infrastructure as Code (IaC),Knowledge of Infrastructure as Code and Configuration as Code
+Knowledge,Knowledge of Quality Gates and automation for improving quality,Quality Gates,Knowledge of Quality Gates and automation for improving quality
+Knowledge,"Knowledge of cloud services deployment, monitoring, and debugging",Cloud services,"Knowledge of cloud services deployment, monitoring, and debugging"
+Knowledge,Knowledge of Azure Cloud Platform and its services,Azure,Knowledge of Azure Cloud Platform and its services
+Knowledge,Knowledge of Docker and Containerization,Docker,Knowledge of Docker and Containerization
+Knowledge,Knowledge of Kubernetes cluster,Kubernetes,Knowledge of Kubernetes cluster
+Knowledge,deploying Applications using Helm Charts,Helm Charts,Deploying Applications using Helm Charts
+Knowledge,Knowledge of deployment techniques such as blue-green,Blue-green,Knowledge of deployment techniques such as blue-green
+Knowledge,Knowledge of deployment techniques such as canary,Canary,Knowledge of deployment techniques such as canary
+Knowledge,Knowledge of Azure DevOps Repos and Pipelines,Azure,Knowledge of Azure DevOps Repos and Pipelines
 Knowledge,Network communications,Network communications,Network communications
 Knowledge,Servers & storage,Servers & storage,Servers & storage
 Knowledge,Security & compliance,Security & compliance,Security & compliance
