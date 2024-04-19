@@ -921,7 +921,8 @@ Skill,Understanding manufacturing processes,Comprehension,Comprehension
 Skill,Deep understanding of supply chain functions,Comprehension,Comprehension
 Skill,Generation of communication strategies in social networks,Communication,Communication
 Skill,Ability to learn and adapt to new tasks and responsibilities,Adaptability,Adaptability
-Knowledge,Experience in Azure Cloud Platform and its services,Azure Cloud Platform,Experience in Azure Cloud Platform and its services
+Knowledge,Experience in Azure Cloud Platform and its services,Azure,Experience in Azure Cloud Platform and its services
+Knowledge,Azure Cloud Platform,Azure,Experience in Azure Cloud Platform and its services
 Knowledge,Experience in building Infrastructure as Code (IaC) using Terraform,Infrastructure as Code (IaC),Experience in building Infrastructure as Code (IaC) using Terraform
 Knowledge,Experience in Terraform,Terraform,Experience in Terraform
 Knowledge,Experience in Docker and Containerization,Docker,Experience in Docker and Containerization
