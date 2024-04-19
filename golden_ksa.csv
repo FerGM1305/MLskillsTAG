@@ -921,3 +921,28 @@ Skill,Understanding manufacturing processes,Comprehension,Comprehension
 Skill,Deep understanding of supply chain functions,Comprehension,Comprehension
 Skill,Generation of communication strategies in social networks,Communication,Communication
 Skill,Ability to learn and adapt to new tasks and responsibilities,Adaptability,Adaptability
+Knowledge,Experience in Azure Cloud Platform and its services,Experience in Azure Cloud Platform and its services,Experience in Azure Cloud Platform and its services
+Knowledge,Experience in building Infrastructure as Code (IaC) using Terraform,Experience in building Infrastructure as Code (IaC) using Terraform,Experience in building Infrastructure as Code (IaC) using Terraform
+Knowledge,Experience in Docker and Containerization,Experience in Docker and Containerization,Experience in Docker and Containerization
+Knowledge,Experience in working with Kubernetes cluster,Experience in working with Kubernetes cluster,Experience in working with Kubernetes cluster
+Knowledge,Experience in deploying Applications using Helm Charts,Experience in deploying Applications using Helm Charts,Experience in deploying Applications using Helm Charts
+Knowledge,Experience creating Continuous Integration (CI) builds and deployment automation,Experience creating Continuous Integration (CI) builds and deployment automation,Experience creating Continuous Integration (CI) builds and deployment automation
+Knowledge,Experience with Azure DevOps Repos and Pipelines,Experience with Azure DevOps Repos and Pipelines,Experience with Azure DevOps Repos and Pipelines
+Knowledge,"Knowledge of Continuous Integration, Continuous Delivery, and Continuous Monitoring","Knowledge of Continuous Integration, Continuous Delivery, and Continuous Monitoring","Knowledge of Continuous Integration, Continuous Delivery, and Continuous Monitoring"
+Knowledge,Knowledge of Infrastructure as Code and Configuration as Code,Knowledge of Infrastructure as Code and Configuration as Code,Knowledge of Infrastructure as Code and Configuration as Code
+Knowledge,Knowledge of Quality Gates and automation for improving quality,Knowledge of Quality Gates and automation for improving quality,Knowledge of Quality Gates and automation for improving quality
+Knowledge,"Knowledge of cloud services deployment, monitoring, and debugging","Knowledge of cloud services deployment, monitoring, and debugging","Knowledge of cloud services deployment, monitoring, and debugging"
+Knowledge,Knowledge of Azure Cloud Platform and its services,Knowledge of Azure Cloud Platform and its services,Knowledge of Azure Cloud Platform and its services
+Knowledge,Knowledge of Docker and Containerization,Knowledge of Docker and Containerization,Knowledge of Docker and Containerization
+Knowledge,Knowledge of Kubernetes cluster and deploying Applications using Helm Charts,Knowledge of Kubernetes cluster and deploying Applications using Helm Charts,Knowledge of Kubernetes cluster and deploying Applications using Helm Charts
+Knowledge,Knowledge of deployment techniques such as blue-green and canary,Knowledge of deployment techniques such as blue-green and canary,Knowledge of deployment techniques such as blue-green and canary
+Knowledge,Knowledge of Azure DevOps Repos and Pipelines,Knowledge of Azure DevOps Repos and Pipelines,Knowledge of Azure DevOps Repos and Pipelines
+Knowledge,Previous experience as a Software Engineer,Previous experience as a Software Engineer,Previous experience as a Software Engineer
+Knowledge,Network communications,Network communications,Network communications
+Knowledge,Servers & storage,Servers & storage,Servers & storage
+Knowledge,Security & compliance,Security & compliance,Security & compliance
+Knowledge,"Automation (APIs, Bots)","Automation (APIs, Bots)","Automation (APIs, Bots)"
+Knowledge,Threat management,Threat management,Threat management
+Knowledge,Penetration testing,Penetration testing,Penetration testing
+Knowledge,IT infrastructure,Infrastructure support,Infrastructure support
+Knowledge,Computer networks,Computer networks,Computer networks
