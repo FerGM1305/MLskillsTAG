@@ -118,18 +118,44 @@ def character_ngram_similarity(word1, word2, n):
 
 def getSimilarNgrams(_item):
     _sim = set()
+    
+    max_sim = 0
     for golden in golden_df["Text"].values:
         sim = character_ngram_similarity(golden, _item, 2)
-
-        
-
         if sim > 0.5:
+            max_sim += 1
+            if max_sim > 2:
+                break
             index = golden_df.index[golden_df["Text"] == golden].tolist()[0]
             #_sim.add(golden)
             _ksa = golden_df.at[index, 'Label']
             #Get standard text for button
             goldenStandardText = golden_df.at[index, 'Standard text']
             _sim.add((_ksa,goldenStandardText))
+
+    max_sim = 0
+    for goldenStandardText in golden_df["Standard text"].values:
+        sim = character_ngram_similarity(golden, _item, 2)
+        if sim > 0.5:
+            max_sim += 1
+            if max_sim > 2:
+                break
+            index = golden_df.index[golden_df["Standard text"] == goldenStandardText].tolist()[0]
+            _ksa = golden_df.at[index, 'Label']
+            _sim.add((_ksa,goldenStandardText))
+
+    #If the text is inside any "Standar text" string then add it once:
+    max_sim = 0
+    for goldenStandardText in golden_df["Standard text"].values:
+        if goldenStandardText in _item:
+            max_sim += 1
+            if max_sim > 1:
+                break
+            index = golden_df.index[golden_df["Standard text"] == goldenStandardText].tolist()[0]
+            _ksa = golden_df.at[index, 'Label']
+            _sim.add((_ksa,goldenStandardText))
+
+
     return list(_sim)
 
 
@@ -142,9 +168,16 @@ def fuzz_similarity(word1, word2):
 
 def getSimilarFuzz(_item):
     _sim = set()
+
+    #get max 3 similar items from 'Text' and 'Standard text'
+
+    max_sim = 0
     for golden in golden_df["Text"].values:
         sim = fuzz_similarity(golden, _item)
         if sim > 70:
+            max_sim += 1
+            if max_sim > 3:
+                break
             #_sim.add(golden + " (" + str(sim) + ")")
             index = golden_df.index[golden_df["Text"] == golden].tolist()[0]
             _ksa = golden_df.at[index, 'Label']

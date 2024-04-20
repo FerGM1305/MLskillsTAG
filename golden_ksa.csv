@@ -930,9 +930,9 @@ Knowledge,Experience in working with Kubernetes cluster,Kubernetes,Experience in
 Knowledge,Experience in deploying Applications using Helm Charts,Helm Charts,Experience in deploying Applications using Helm Charts
 Knowledge,Experience creating Continuous Integration (CI) builds and deployment automation,Continuous Integration (CI),Experience creating Continuous Integration (CI) builds and deployment automation
 Knowledge,Experience with Azure DevOps Repos and Pipelines,Azure,Experience with Azure DevOps Repos and Pipelines
-Knowledge,"Knowledge of Continuous Integration, Continuous Delivery, and Continuous Monitoring",Continuous Integration,"Knowledge of Continuous Integration"
-Knowledge,"Knowledge of Continuous Delivery",Continuous Delivery,"Knowledge of Continuous Delivery"
-Knowledge,"Knowledge of Continuous Monitoring",Continuous Monitoring,"Knowledge of Continuous Monitoring"
+Knowledge,"Knowledge of Continuous Integration, Continuous Delivery, and Continuous Monitoring",Continuous Integration,Knowledge of Continuous Integration
+Knowledge,Knowledge of Continuous Delivery,Continuous Delivery,Knowledge of Continuous Delivery
+Knowledge,Knowledge of Continuous Monitoring,Continuous Monitoring,Knowledge of Continuous Monitoring
 Knowledge,Knowledge of Infrastructure as Code and Configuration as Code,Infrastructure as Code (IaC),Knowledge of Infrastructure as Code and Configuration as Code
 Knowledge,Knowledge of Quality Gates and automation for improving quality,Quality Gates,Knowledge of Quality Gates and automation for improving quality
 Knowledge,"Knowledge of cloud services deployment, monitoring, and debugging",Cloud services,"Knowledge of cloud services deployment, monitoring, and debugging"
