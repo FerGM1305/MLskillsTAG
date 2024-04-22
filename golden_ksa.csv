@@ -235,7 +235,7 @@ Ability,Plasticity ,Plasticity ,"Neuroplasticity is the brain's ability to chang
 Ability,Prioritize efficiently,Prioritize efficiently,"Prioritisation in the workplace refers to a person's ability to correctly appraise the relevant importance or urgency of assigned tasks. Employees with better prioritisation skills will be better equipped to make strategic decisions, show excellent judgement, and display strong time-management skills."
 Ability,Prudence,Prudence,"Prudence involves far-sighted planning as well as short-term, goal-directed planning. It is often referred to as cautious wisdom, practical wisdom, and practical reason."
 Ability,Reflection,Reflection,"Reflection is about reviewing, analysing and evaluating experiences. It involves thinking about your experience, and taking learning points away from it. When reflecting on work experience, try to consider the role that you were observing."
-Ability,Relationship-building,Relationship-building,"Relationship-building skills are essential for getting along with coworkers, contributing to a team and building an understanding between yourself and others."
+Ability,Relationship-building,Relationship building,"Relationship-building skills are essential for getting along with coworkers, contributing to a team and building an understanding between yourself and others."
 Ability,Reliability,Reliability,"Reliability is to complete tasks on time, every time with the same high quality of work. Showing up on time, taking charge in moments of crisis, and respecting deadlines "
 Ability,Ability,Reliability,"Reliability is to complete tasks on time, every time with the same high quality of work. Showing up on time, taking charge in moments of crisis, and respecting deadlines "
 Ability,Usability,Reliability,"Reliability is to complete tasks on time, every time with the same high quality of work. Showing up on time, taking charge in moments of crisis, and respecting deadlines "
@@ -327,7 +327,7 @@ Ability,Orientation and commitment to quality,Commitment,Commitment
 Ability,Commitment to health and safety protocols,Commitment,Commitment
 Ability,Attention to details,Attention to details,Attention to details
 Ability,Attention to detail,Attention to details,Attention to details
-Ability,Relationship Building,Relationship Building,Relationship Building
+Ability,Relationship Building,Relationship building,Relationship Building
 Ability,Ethics and integrity,Ethics and integrity,Ethics and integrity
 Ability,Initiativeproactivity,Initiative,Initiative
 Ability,Possess good physical resistance and coordination,Endurance,Endurance
@@ -348,7 +348,7 @@ Ability,Ability to be proactive and take initiative at work,Initiative,Initiativ
 Ability,Ability to take initiative,Initiative,Initiative
 Ability,Ability to work autonomously and take initiative,Initiative,Initiative
 Ability,Ability to work in a startup environment,Initiative,Initiative
-Ability,Relationship Building Skills,Relationship Building,Relationship Building
+Ability,Relationship Building Skills,Relationship building,Relationship Building
 Ability,Organization and time management skills,Time management,Time management
 Ability,Initiative,Initiative,Initiative
 Ability,initiativecreativity,Initiative,Initiative
@@ -379,7 +379,7 @@ Ability,Reflection,Reflection,Reflection
 Ability,Self-motivated and able to positively motivate others,Initiative,Initiative
 Ability,Knowledge of EMS enterprise mobility security,Curiosity,Curiosity
 Ability,Initiative and organizational skills,Initiative,Initiative
-Ability,Relationship management,Relationship Building,Relationship Building
+Ability,Relationship management,Relationship building,Relationship Building
 Ability,Definition of corrective measures,Initiative,Initiative
 Knowledge,Troubleshooting,Problem management,Problem management
 Knowledge,Ability to follow up on students' research work,Investigation,Investigation
@@ -988,3 +988,14 @@ Knowledge,Azure,Azure,Azure
 Knowledge,VMware,VMware,VMware
 Knowledge,SQL Server,SQL Server,SQL Server
 Other,"Knowledge of software applications, operating systems, and hardware components","Knowledge of software applications, operating systems, and hardware components","Knowledge of software applications, operating systems, and hardware components"
+Skill,Problem-solving skills,Problem solving,Problem solving
+Skill,Code reading and understanding,Code reading and understanding,Code reading and understanding
+Skill,Collaborative team environment experience,Collaboration,Collaboration
+Other,Pride,Pride,Pride
+Other,Aspiration,Aspiration,Aspiration
+Other,Desire,Desire,Desire
+Other,Ambition,Ambition,Ambition
+Other,Passion,Passion,Passion
+Other,Career development,Career development,Career development
+Other,Fun,Fun,Fun
+Other,Community service,Community service,Community service
