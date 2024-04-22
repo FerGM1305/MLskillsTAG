@@ -133,7 +133,8 @@ def getSimilarNgrams(_item):
             _ksa = golden_df.at[index, 'Label']
             #Get standard text for button
             goldenStandardText = golden_df.at[index, 'Standard text']
-            _sim.add((_ksa,goldenStandardText))
+            if _ksa != "Other":
+                _sim.add((_ksa,goldenStandardText))
 
     max_sim = 0
     for goldenStandardText in golden_df["Standard text"].values:
@@ -144,7 +145,8 @@ def getSimilarNgrams(_item):
                 break
             index = golden_df.index[golden_df["Standard text"] == goldenStandardText].tolist()[0]
             _ksa = golden_df.at[index, 'Label']
-            _sim.add((_ksa,goldenStandardText))
+            if _ksa != "Other":
+                _sim.add((_ksa,goldenStandardText))
 
     #If the text is inside any "Standar text" string then add it once:
     max_sim = 0
@@ -155,7 +157,8 @@ def getSimilarNgrams(_item):
                 break
             index = golden_df.index[golden_df["Standard text"] == goldenStandardText].tolist()[0]
             _ksa = golden_df.at[index, 'Label']
-            _sim.add((_ksa,goldenStandardText))
+            if _ksa != "Other":
+                _sim.add((_ksa,goldenStandardText))
 
 
     return list(_sim)
@@ -185,7 +188,8 @@ def getSimilarFuzz(_item):
             _ksa = golden_df.at[index, 'Label']
             #Get standard text for button
             goldenStandardText = golden_df.at[index, 'Standard text']
-            _sim.add((_ksa,goldenStandardText))
+            if _ksa != "Other":
+                _sim.add((_ksa,goldenStandardText))
     return list(_sim)
 
 
