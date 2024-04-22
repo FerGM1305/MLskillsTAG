@@ -186,7 +186,7 @@ Ability,Continuous growth and learning skills,Continuous learning, Continuous le
 Ability,Sequencing,Coordination,"Coordination ensures that employees do not engage in cross-purpose work since it brings together the human and material resources of the organization. Therefore, there is less wastage of resources which helps the organization utilize them optimally."
 Ability,Coordination,Coordination,"Coordination ensures that employees do not engage in cross-purpose work since it brings together the human and material resources of the organization. Therefore, there is less wastage of resources which helps the organization utilize them optimally."
 Ability,Cross-modal integration,Cross-modal integration,"The ability to handle shared interactive spaces through different sets of modalities, and to use cross-modal tools combining visual diagrams editors with auditory and haptic views to allow simultaneous visual and non-visual interaction. "
-Ability,Cultural awareness in a broad sense,Cultural awareness in a broad sense,Cultural awareness is sensitivity to the similarities and differences that exist between two different cultures and the use of this sensitivity in effective communication with members of another cultural group.
+Ability,Cultural awareness in a broad sense,Cultural awareness,Cultural awareness is sensitivity to the similarities and differences that exist between two different cultures and the use of this sensitivity in effective communication with members of another cultural group.
 Ability,Curiosity,Curiosity,"Curiosity in the workplace is the drive to explore, learn, question, and seek new knowledge and ideas. It fuels innovation, fosters personal and professional growth, and creates a culture of continuous learning and improvement."
 Ability,Discretion,Discretion,Exercising discretion is an integral part of being a manager or a business owner. Discretion relates to the freedom to make decisions within the constraints of your authority and applying caution in what you say or do.
 Ability,Effort,Effort,"Employee Effort is an earnest, diligent and strenuous working attempt: a workplace episode when some results are achieved by an employee through exertion or hard work."
@@ -999,3 +999,7 @@ Other,Passion,Passion,Passion
 Other,Career development,Career development,Career development
 Other,Fun,Fun,Fun
 Other,Community service,Community service,Community service
+Knowledge,A/B testing,A/B testing,A/B testing
+Knowledge,Google Analytics,Google Analytics,Google Analytics
+Other,Mental and physical wellbeing,Mental and physical wellbeing,Mental and physical wellbeing
+Other,Learning and development opportunities,Learning and development opportunities,Learning and development opportunities
