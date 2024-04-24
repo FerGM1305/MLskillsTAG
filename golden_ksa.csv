@@ -1003,3 +1003,999 @@ Knowledge,A/B testing,A/B testing,A/B testing
 Knowledge,Google Analytics,Google Analytics,Google Analytics
 Other,Mental and physical wellbeing,Mental and physical wellbeing,Mental and physical wellbeing
 Other,Learning and development opportunities,Learning and development opportunities,Learning and development opportunities
+Other,Email deliverability,Email deliverability,Email deliverability
+Skill,Strategic thinking,Creative thinking,Creative thinking
+Knowledge,Knowledge of Linux,Knowledge of Linux,Knowledge of Linux
+Knowledge,Bash Scripting,Bash Scripting,Bash Scripting
+Knowledge,Security,Security,Security
+Knowledge,"Containers (Docker, Rancher, AKS, EKS)","Containers (Docker, Rancher, AKS, EKS)","Containers (Docker, Rancher, AKS, EKS)"
+Knowledge,Kubernetes,Kubernetes,Kubernetes
+Knowledge,Database management (PostgreSQL/MySQL),Database management (PostgreSQL/MySQL),Database management (PostgreSQL/MySQL)
+Knowledge,SIEM tools,SIEM tools,SIEM tools
+Knowledge,"Application servers (GlassFish, Nginx, Kong)","Application servers (GlassFish, Nginx, Kong)","Application servers (GlassFish, Nginx, Kong)"
+Knowledge,CI/CD,CI/CD,CI/CD
+Knowledge,"Version control (Git, Bitbucket)","Version control (Git, Bitbucket)","Version control (Git, Bitbucket)"
+Knowledge,"Cloud platforms (OCI, Azure)","Cloud platforms (OCI, Azure)","Cloud platforms (OCI, Azure)"
+Knowledge,"Networking (IPs, Peering, DNS, VPN, Balancing)","Networking (IPs, Peering, DNS, VPN, Balancing)","Networking (IPs, Peering, DNS, VPN, Balancing)"
+Knowledge,Proxy servers,Proxy servers,Proxy servers
+Knowledge,Cloud services,Cloud services,Cloud services
+Knowledge,Routing,Routing,Routing
+Knowledge,Containers,Containers,Containers
+Knowledge,Database replication,Database replication,Database replication
+Knowledge,Cybersecurity,Cybersecurity,Cybersecurity
+Knowledge,Firewall,Firewall,Firewall
+Knowledge,DNS,DNS,DNS
+Skill,Analytical thinking,Analytical thinking,Analytical thinking
+Ability,Attention,Attention,Attention
+Knowledge,Infrastructure management,Infrastructure management,Infrastructure management
+Knowledge,Virtualization,Virtualization,Virtualization
+Knowledge,WAF,WAF,WAF
+Knowledge,Network infrastructure,Network infrastructure,Network infrastructure
+Knowledge,Storage,Storage,Storage
+Knowledge,Backup and recovery,Backup and recovery,Backup and recovery
+Knowledge,REST APIs,REST APIs,REST APIs
+Knowledge,Ruby on Rails (versions 5 and/or 6),Ruby on Rails (versions 5 and/or 6),Ruby on Rails (versions 5 and/or 6)
+Knowledge,Strong understanding of cloud security platform architecture (Azure/OCI),Azure,Azure
+Knowledge,Experience building assurance processes within CI/CD pipelines,Experience building assurance processes within CI/CD pipelines,Experience building assurance processes within CI/CD pipelines
+Knowledge,Knowledge of security and privacy by design principles,Knowledge of security and privacy by design principles,Knowledge of security and privacy by design principles
+Knowledge,Knowledge of cloud platform and workload security engineering for Azure and OCI,Knowledge of cloud platform and workload security engineering for Azure and OCI,Knowledge of cloud platform and workload security engineering for Azure and OCI
+Knowledge,Business Intelligence (BI),Business Intelligence (BI),Business Intelligence (BI)
+Other,Load balancers,Load balancers,Load balancers
+Ability,Passion for technology,Passion for technology,Passion for technology
+Knowledge,Fluent in English,Fluent in English,Fluent in English
+Skill,Monitoring,Monitoring,Monitoring
+Ability,High availability,High availability,High availability
+Knowledge,Pods,Pods,Pods
+Knowledge,Systems architecture,Systems architecture,Systems architecture
+Knowledge,Cloud service offerings,Cloud service offerings,Cloud service offerings
+Knowledge,Cloud VPN knowledge,Cloud VPN knowledge,Cloud VPN knowledge
+Knowledge,Scripting knowledge,Scripting knowledge,Scripting knowledge
+Knowledge,API design,API design,API design
+Knowledge,Server-side programming,Server-side programming,Server-side programming
+Knowledge,Agile methodology,Agile methodology,Agile methodology
+Knowledge,UX design,UX design,UX design
+Knowledge,Front-end development,Front-end development,Front-end development
+Skill,Technology skills,Technology skills,Technology skills
+Skill,Product development skills,Building Inclusivity,Building Inclusivity
+Skill,Engineering skills,Engineering skills,Engineering skills
+Skill,Project design development skills,Project design development skills,Project design development skills
+Skill,Test/validation skills,Test/validation skills,Test/validation skills
+Skill,Programming skills,Programming skills,Programming skills
+Skill,Implementation skills,Implementation skills,Implementation skills
+Skill,Manufacturing skills,Manufacturing skills,Manufacturing skills
+Skill,Quality assurance skills,Quality assurance skills,Quality assurance skills
+Skill,Autonomy skills,Autonomy skills,Autonomy skills
+Skill,Cross-functional collaboration skills,Cross-functional collaboration skills,Cross-functional collaboration skills
+Skill,Business understanding skills,Business understanding skills,Business understanding skills
+Skill,User requirements translation skills,User requirements translation skills,User requirements translation skills
+Skill,Technical strategy development skills,Technical strategy development skills,Technical strategy development skills
+Skill,Software architecture skills,Software architecture skills,Software architecture skills
+Knowledge,Enterprise database architecture strategy,Enterprise database architecture strategy,Enterprise database architecture strategy
+Skill,Code review skills,Code review skills,Code review skills
+Skill,Technical issue resolution skills,Technical issue resolution skills,Technical issue resolution skills
+Skill,Code standard implementation skills,Code standard implementation skills,Code standard implementation skills
+Skill,Systems reengineering skills,Systems reengineering skills,Systems reengineering skills
+Other,Database Engineering,Database Engineering,Database Engineering
+Other,Oracle and SQL Server systems,Oracle and SQL Server systems,Oracle and SQL Server systems
+Other,Reference Architecture,Reference Architecture,Reference Architecture
+Other,DB compliance,DB compliance,DB compliance
+Knowledge,Guardium/other tools,Guardium/other tools,Guardium/other tools
+Knowledge,DB encryption,DB encryption,DB encryption
+Knowledge,Vormetric,Vormetric,Vormetric
+Other,DB Backup/Recovery,DB Backup/Recovery,DB Backup/Recovery
+Knowledge,Cross-dc/cross-region replication patterns,Cross-dc/cross-region replication patterns,Cross-dc/cross-region replication patterns
+Knowledge,Proof of Technology/Concepts (PoT/PoC's),Proof of Technology/Concepts (PoT/PoC's),Proof of Technology/Concepts (PoT/PoC's)
+Skill,Data schema reengineering skills,Data schema reengineering skills,Data schema reengineering skills
+Knowledge,PaaS DB design patterns,PaaS DB design patterns,PaaS DB design patterns
+Knowledge,Azure SQL DB,Azure,Azure
+Other,Managed Instances,Managed Instances,Managed Instances
+Knowledge,CosmosDB,CosmosDB,CosmosDB
+Knowledge,Exadata Database Machine Architecture,Enterprise database architecture strategy,Enterprise database architecture strategy
+Knowledge,IaaS/PaaS Services,IaaS/PaaS Services,IaaS/PaaS Services
+Skill,Coordination skills,Coordination skills,Coordination skills
+Ability,Logical thinking,Logical thinking,Logical thinking
+Skill,Microservices development skills,Microservices development skills,Microservices development skills
+Skill,Agile development technology implementation skills,Agile development technology implementation skills,Agile development technology implementation skills
+Skill,Technical training skills,Communication,Communication
+Skill,Java programming skills,Java programming skills,Java programming skills
+Skill,.NET programming skills,.NET programming skills,.NET programming skills
+Skill,Angular programming skills,Angular programming skills,Angular programming skills
+Skill,Python programming skills,Python programming skills,Python programming skills
+Skill,REST service administration skills,REST service administration skills,REST service administration skills
+Skill,RESTX service administration skills,RESTX service administration skills,RESTX service administration skills
+Skill,WCF service administration skills,WCF service administration skills,WCF service administration skills
+Skill,Software development planning skills,Software development planning skills,Software development planning skills
+Skill,Requirements management skills,Requirements management skills,Requirements management skills
+Skill,User story management skills,User story management skills,User story management skills
+Skill,Embedded systems diagramming skills,Embedded systems diagramming skills,Embedded systems diagramming skills
+Skill,Component diagramming skills,Component diagramming skills,Component diagramming skills
+Skill,Algorithm optimization skills,Algorithm optimization skills,Algorithm optimization skills
+Knowledge,Software architecture best practices knowledge,Software architecture best practices knowledge,Software architecture best practices knowledge
+Knowledge,"Cloud technology knowledge (Google Cloud Platform, AWS)","Cloud technology knowledge (Google Cloud Platform, AWS)","Cloud technology knowledge (Google Cloud Platform, AWS)"
+Other,Senior Software Engineering,Senior Software Engineering,Senior Software Engineering
+Skill,Embedded Software,Embedded Software,Embedded Software
+Skill,Asset Protection,Asset Protection,Asset Protection
+Skill,Condition Monitoring,Condition Monitoring,Condition Monitoring
+Skill,Design,Design,Design
+Other,"Web security principles (HTTPS, auth, encryption, etc)","Web security principles (HTTPS, auth, encryption, etc)","Web security principles (HTTPS, auth, encryption, etc)"
+Knowledge,HTML,HTML,HTML
+Knowledge,CSS,CSS,CSS
+Knowledge,Integrations with third-party APIs,Integrations with third-party APIs,Integrations with third-party APIs
+Knowledge,TypeScript,TypeScript,TypeScript
+Knowledge,Docker,Docker,Docker
+Knowledge,Amazon Web Services (AWS),AWS,AWS
+Knowledge,PHP programming,PHP,PHP
+Knowledge,WordPress,WordPress,WordPress
+Knowledge,Drupal,Drupal,Drupal
+Knowledge,Joomla,Joomla,Joomla
+Knowledge,SASS,SASS,SASS
+Knowledge,React,React,React
+Knowledge,Angular,Angular,Angular
+Knowledge,Git,Git,Git
+Knowledge,XML,XML,XML
+Knowledge,HTML proficiency,HTML,HTML
+Knowledge,CSS proficiency,CSS,CSS
+Knowledge,JavaScript proficiency,JavaScript,JavaScript
+Knowledge,Angular knowledge,Angular,Angular
+Knowledge,React knowledge,React,React
+Knowledge,Git proficiency,Git,Git
+Skill,Teamwork skills,Teamwork,Teamwork
+Skill,Problem-solving abilities,Problem solving,Problem solving
+Ability,Business leadership,Leadership ,Leadership 
+Other,Potential growth,Potential growth,Potential growth
+Other,Potential growth.,Potential growth.,Potential growth.
+Other,Knowledge of deployment techniques such as blue-green and canary,Knowledge of deployment techniques such as blue-green and canary,Knowledge of deployment techniques such as blue-green and canary
+Knowledge,Network security protocols,Network security,Network security
+Knowledge,Network configurations,Network configuration,Network configuration
+Other,"Network technologies (Masergy SDWAN, Zayo MAN (UK), Meraki Wireless, Juniper SRX Firewalls, Pulse VPN (Zscaler ZPA), Zscaler ZIA GRE tunnels)","Network technologies (Masergy SDWAN, Zayo MAN (UK), Meraki Wireless, Juniper SRX Firewalls, Pulse VPN (Zscaler ZPA), Zscaler ZIA GRE tunnels)","Network technologies (Masergy SDWAN, Zayo MAN (UK), Meraki Wireless, Juniper SRX Firewalls, Pulse VPN (Zscaler ZPA), Zscaler ZIA GRE tunnels)"
+Knowledge,Cisco ACI,Cisco ACI,Cisco ACI
+Knowledge,Cisco site to site VPN,Cisco site to site VPN,Cisco site to site VPN
+Knowledge,Cisco Call Manager,Cisco Call Manager,Cisco Call Manager
+Knowledge,NAT,NAT,NAT
+Knowledge,Meraki (Wi-Fi),Meraki (Wi-Fi),Meraki (Wi-Fi)
+Knowledge,Cisco ISE,Cisco ISE,Cisco ISE
+Knowledge,Cisco DNA,Cisco DNA,Cisco DNA
+Knowledge,Terraform,Terraform,Terraform
+Knowledge,Ansible,Ansible,Ansible
+Knowledge,Zscaler,Zscaler,Zscaler
+Knowledge,Lantronix consoles,Lantronix consoles,Lantronix consoles
+Skill,Teamwork.,Teamwork,Teamwork
+Other,"DNS, DHCP, File and Printer server maintenance","DNS, DHCP, File and Printer server maintenance","DNS, DHCP, File and Printer server maintenance"
+Other,Technical expertise,Technical expertise,Technical expertise
+Knowledge,Compliance,Audit and Compliance,Audit and Compliance
+Skill,Analytical skills,Analytical thinking,Analytical thinking
+Knowledge,Resource management,Resource management,Resource management
+Other,Financial services knowledge,Financial services knowledge,Financial services knowledge
+Knowledge,Global environment experience,Global environment experience,Global environment experience
+Skill,Team management,Team management,Team management
+Knowledge,Risk assessment,Product Risk Assessment,Product Risk Assessment
+Skill,Negotiation,Negotiation,Negotiation
+Other,Independence,Independence,Independence
+Ability,Judgement,Judgement,Judgement
+Skill,Subject matter expertise,Subject matter expertise,Subject matter expertise
+Other,Supervision,Supervision,Supervision
+Knowledge,Technology infrastructure management,Infrastructure management,Infrastructure management
+Knowledge,Data center operations,Data center operations,Data center operations
+Ability,Relationship building,Relationship building,Relationship building
+Knowledge,Metrics development,Metrics development,Metrics development
+Skill,Benchmarking,Benchmarking,Benchmarking
+Other,Best practices,Best practices,Best practices
+Skill,Written and verbal communication,Communication,Communication
+Skill,Analytic/diagnostic skills,Analytical thinking,Analytical thinking
+Skill,Virtual and in-person teamwork,Collaboration,Collaboration
+Skill,Deadline management,Deadline management,Deadline management
+Other,Bachelor's/University degree,Bachelor's/University degree,Bachelor's/University degree
+Other,Master's degree,Master's degree,Master's degree
+Knowledge,Data center management,Data Centre Facilities Management,Data Centre Facilities Management
+Ability,Team motivation,Leadership ,Leadership 
+Ability,Visionary leadership,Leadership ,Leadership 
+Skill,Project coordination,Project coordination,Project coordination
+Other,Business alignment,Business alignment,Business alignment
+Other,Cost reduction,Cost reduction,Cost reduction
+Ability,Flexibility,Flexibility,Flexibility
+Other,Change control,Change control,Change control
+Other,Project,Project,Project
+Knowledge,Networking infrastructure operations,Network infrastructure,Network infrastructure
+Knowledge,IS network security,Network security,Network security
+Knowledge,Firewalls,Firewall,Firewall
+Knowledge,VPN,VPN,VPN
+Knowledge,Cross-technology troubleshooting,Cross-technology troubleshooting,Cross-technology troubleshooting
+Knowledge,Open Systems Interconnections (OSI) model,Open Systems Interconnections (OSI) model,Open Systems Interconnections (OSI) model
+Other,LAN/WAN/Security design,LAN/WAN/Security design,LAN/WAN/Security design
+Knowledge,Implementation experience,Implementation experience,Implementation experience
+Skill,Planning,Planning,Planning
+Knowledge,Implementation,Implementation,Implementation
+Knowledge,Firewall functions,Firewall,Firewall
+Other,Packet Flow,Packet Flow,Packet Flow
+Other,Captures,Captures,Captures
+Other,ACLs,ACLs,ACLs
+Other,Vulnerabilities,Vulnerabilities,Vulnerabilities
+Other,Countermeasures,Countermeasures,Countermeasures
+Knowledge,"WAN (QoS, routing)","WAN (QoS, routing)","WAN (QoS, routing)"
+Knowledge,EIGRP,EIGRP,EIGRP
+Knowledge,OSPF,OSPF,OSPF
+Knowledge,BGP4,BGP4,BGP4
+Knowledge,LAN (switching),LAN (switching),LAN (switching)
+Knowledge,STP,STP,STP
+Knowledge,VTP,VTP,VTP
+Knowledge,WLAN (wireless),WLAN (wireless),WLAN (wireless)
+Knowledge,WAN Optimization,WAN Optimization,WAN Optimization
+Knowledge,"Firewalls (ASA, Checkpoint)",Firewall,Firewall
+Other,"AAA (ACS, ISE)","AAA (ACS, ISE)","AAA (ACS, ISE)"
+Knowledge,Network management,Network management,Network management
+Skill,Monitoring systems,Monitoring,Monitoring
+Knowledge,Cisco Network Hardware,Cisco Network Hardware,Cisco Network Hardware
+Knowledge,Switches,Switches,Switches
+Knowledge,Routers,Routers,Routers
+Skill,English language proficiency,English language proficiency,English language proficiency
+Ability,Cultural awareness,Cultural awareness,Cultural awareness
+Skill,Multicultural teamwork,Multicultural teamwork,Multicultural teamwork
+Skill,Global teamwork,Multicultural teamwork,Multicultural teamwork
+Other,Stable employment,Stable employment,Stable employment
+Other,Innovation,Innovation,Innovation
+Skill,Technology,Technology skills,Technology skills
+Skill,International environment,Communication,Communication
+Knowledge,Cybersecurity expertise,Cybersecurity,Cybersecurity
+Other,DevSecOps knowledge,DevSecOps knowledge,DevSecOps knowledge
+Other,Application security experience,Application security experience,Application security experience
+Knowledge,Understanding of cyber risks,Understanding of cyber risks,Understanding of cyber risks
+Other,Knowledge of OWASP and MITRE attack framework,Knowledge of OWASP and MITRE attack framework,Knowledge of OWASP and MITRE attack framework
+Other,IT and development language proficiency,IT and development language proficiency,IT and development language proficiency
+Other,DevOps environment familiarity,DevOps environment familiarity,DevOps environment familiarity
+Other,Cloud services knowledge (AWS and Azure),Cloud services knowledge (AWS and Azure),Cloud services knowledge (AWS and Azure)
+Other,"Scripting skills (Shell, Python, PowerShell)","Scripting skills (Shell, Python, PowerShell)","Scripting skills (Shell, Python, PowerShell)"
+Other,Container technology knowledge (RedHat OpenShift and Kubernetes),Container technology knowledge (RedHat OpenShift and Kubernetes),Container technology knowledge (RedHat OpenShift and Kubernetes)
+Ability,Leadership abilities,Leadership ,Leadership 
+Skill,Technical writing skills,Technical writing skills,Technical writing skills
+Ability,Curiosity and willingness to learn,Curiosity and willingness to learn,Curiosity and willingness to learn
+Skill,Translation of technical concepts to non-technical stakeholders,Translation of technical concepts to non-technical stakeholders,Translation of technical concepts to non-technical stakeholders
+Knowledge,Fluency in English language,Fluent in English,Fluent in English
+Other,"Programming skills (Python, PowerShell, C#, Symfony, API Platform)","Programming skills (Python, PowerShell, C#, Symfony, API Platform)","Programming skills (Python, PowerShell, C#, Symfony, API Platform)"
+Skill,Diversity and inclusion awareness.,Diversity and inclusion awareness.,Diversity and inclusion awareness.
+Knowledge,Information Security,Security administration,Security administration
+Knowledge,Cloud Enabled Practices,Cloud Enabled Practices,Cloud Enabled Practices
+Knowledge,Cloud Provider Ecosystems,Cloud Provider Ecosystems,Cloud Provider Ecosystems
+Knowledge,Amazon AWS,AWS,AWS
+Knowledge,Importante empresa Azure,Azure,Azure
+Knowledge,OpenStack,OpenStack,OpenStack
+Knowledge,NextGen Firewalls,Firewall,Firewall
+Knowledge,DLP,DLP,DLP
+Knowledge,NAC,NAC,NAC
+Knowledge,IDS/IPS,IDS/IPS,IDS/IPS
+Knowledge,IdAM,IdAM,IdAM
+Other,Certificate Management,Certificate Management,Certificate Management
+Knowledge,SIEM,SIEM,SIEM
+Knowledge,Endpoint Protection,Endpoint Protection,Endpoint Protection
+Knowledge,Anti-malware,Anti-malware,Anti-malware
+Knowledge,Vulnerability Management,Vulnerability Management,Vulnerability Management
+Knowledge,Relational Databases,Relational Databases,Relational Databases
+Knowledge,Continuous Service Improvement,Continuous Service Improvement,Continuous Service Improvement
+Other,Service Excellence,Service Excellence,Service Excellence
+Knowledge,Security Incident Response,Security Incident Response,Security Incident Response
+Other,Industry Leading Practices,Industry Leading Practices,Industry Leading Practices
+Knowledge,Security Engineering,Security Engineering,Security Engineering
+Other,Security Products,Security Products,Security Products
+Knowledge,Information Security Strategy,Security Strategy,Security Strategy
+Other,Secure Solutions,Secure Solutions,Secure Solutions
+Knowledge,Security Threats,Security Strategy,Security Strategy
+Knowledge,Security Vulnerabilities,Vulnerability Management,Vulnerability Management
+Knowledge,Security Risks,Security,Security
+Knowledge,Business Impact Analysis,Business Impact Analysis,Business Impact Analysis
+Skill,Communication Skills,Communication,Communication
+Knowledge,Cloud Computing,Cloud computing,Cloud computing
+Knowledge,Risk Management,Risk Management,Risk Management
+Other,Automation,Automation,Automation
+Other,Process Improvement,Process Improvement,Process Improvement
+Other,Documentation,Documentation,Documentation
+Ability,Advocacy,Advocacy,Advocacy
+Skill,Service Oriented,Service Oriented,Service Oriented
+Other,Inclusivity,Inclusivity,Inclusivity
+Skill,Forward-thinking,Forward-thinking,Forward-thinking
+Other,Cyber,Cyber,Cyber
+Other,Strong security knowledge and expertise,Strong security knowledge and expertise,Strong security knowledge and expertise
+Other,Information Systems process domains,Information Systems process domains,Information Systems process domains
+Knowledge,Global business needs,Business needs analysis,Business needs analysis
+Other,LGBTQ+,LGBTQ+,LGBTQ+
+Other,Abilities,Abilities,Abilities
+Other,Ethnicity,Ethnicity,Ethnicity
+Other,Generations,Generations,Generations
+Other,Individual differences,Individual differences,Individual differences
+Knowledge,Information Systems security technology,Security administration,Security administration
+Other,Installation,Installation,Installation
+Other,Management,Management,Management
+Other,Maintenance,Maintenance,Maintenance
+Other,Optimization,Optimization,Optimization
+Other,Solutions/services,Solutions/services,Solutions/services
+Other,IS Service Owner,IS Service Owner,IS Service Owner
+Other,Service level,Service level,Service level
+Other,Information Services processes,Information Services processes,Information Services processes
+Knowledge,ABB Information Services Enterprise Architecture,ABB Information Services Enterprise Architecture,ABB Information Services Enterprise Architecture
+Other,Temporary work teams,Temporary work teams,Temporary work teams
+Other,Expert knowledge,Expert knowledge,Expert knowledge
+Other,Advice,Advice,Advice
+Other,Operation,Operation,Operation
+Knowledge,Business processes,Business processes,Business processes
+Other,IS technologies impact,IS technologies impact,IS technologies impact
+Other,Bachelor's or Master's degree,Bachelor's or Master's degree,Bachelor's or Master's degree
+Other,Information Technology,Information Technology,Information Technology
+Other,Computer Science,Computer Science,Computer Science
+Knowledge,Software Engineering,Software Engineering,Software Engineering
+Other,IS security technology knowledge,IS security technology knowledge,IS security technology knowledge
+Knowledge,Risk evaluation,Risk evaluation,Risk evaluation
+Knowledge,Industry standards,Industry standards,Industry standards
+Other,Frameworks,Frameworks,Frameworks
+Knowledge,SOC1,SOC1,SOC1
+Knowledge,SOC2,SOC2,SOC2
+Knowledge,ISO2700x,ISO2700x,ISO2700x
+Knowledge,NIST,NIST,NIST
+Knowledge,COBIT,COBIT,COBIT
+Other,Professional certification,Professional certification,Professional certification
+Knowledge,CISSP,CISSP,CISSP
+Knowledge,CISM,CISM,CISM
+Knowledge,CISA,CISA,CISA
+Knowledge,CCSP,CCSP,CCSP
+Other,Management experience,Management experience,Management experience
+Ability,Exceptional solutions,Exceptional solutions,Exceptional solutions
+Knowledge,Data protection,Data protection,Data protection
+Knowledge,Ransomware protection,Ransomware protection,Ransomware protection
+Skill,Applications,Applications,Applications
+Knowledge,Systems,Systems,Systems
+Other,On-premises,On-premises,On-premises
+Knowledge,Cloud,Cloud,Cloud
+Knowledge,Multi-generational IT infrastructures,Multi-generational IT infrastructures,Multi-generational IT infrastructures
+Other,Product families,Product families,Product families
+Other,Product lines,Product lines,Product lines
+Other,Corporate architecture initiatives,Corporate architecture initiatives,Corporate architecture initiatives
+Other,Architecture community,Architecture community,Architecture community
+Knowledge,Technical specifications,Technical specifications,Technical specifications
+Knowledge,Customer requirements,Customer requirements,Customer requirements
+Other,Functionality,Functionality,Functionality
+Skill,Efficiency,Efficiency,Efficiency
+Skill,Availability,Availability,Availability
+Skill,Scalability,Scalability,Scalability
+Knowledge,High-quality architecture,High-quality architecture,High-quality architecture
+Knowledge,Detailed design documents,Detailed design documents,Detailed design documents
+Knowledge,Design issues,Design issues,Design issues
+Knowledge,Software development life cycle,Software development life cycle,Software development life cycle
+Knowledge,Testability,Testability,Testability
+Ability,Customer relationships,Customer relationships,Customer relationships
+Other,Industry conferences,Industry conferences,Industry conferences
+Skill,Standards bodies,Standards bodies,Standards bodies
+Other,White papers,White papers,White papers
+Ability,Patentable technology,Patentable technology,Patentable technology
+Ability,Patent applications,Patent applications,Patent applications
+Skill,IT operations,IT operations,IT operations
+Knowledge,Industry knowledge,Industry knowledge,Industry knowledge
+Knowledge,Programming languages,Programming languages,Programming languages
+Skill,Integration,Integration,Integration
+Knowledge,Certification,Certification,Certification
+Knowledge,UML,UML,UML
+Knowledge,Modeling tools,Modeling tools,Modeling tools
+Knowledge,Object-oriented design,Object-oriented design,Object-oriented design
+Ability,Technical leadership,Technical leadership,Technical leadership
+Skill,Cross-group collaboration,Cross-group collaboration,Cross-group collaboration
+Skill,Presentation skills,Presentation skills,Presentation skills
+Other,Self-m,Self-m,Self-m
+Knowledge,Full-stack engineering,Full-stack engineering,Full-stack engineering
+Skill,Creativity,Creativity,Creativity
+Knowledge,Cloud-native solutions,Cloud-native solutions,Cloud-native solutions
+Knowledge,API-driven solutions,API-driven solutions,API-driven solutions
+Knowledge,Legacy systems integration,Legacy systems integration,Legacy systems integration
+Other,Aesthetics,Aesthetics,Aesthetics
+Skill,Technical skills,Technical skills,Technical skills
+Knowledge,Telecom industry knowledge,Telecom industry knowledge,Telecom industry knowledge
+Skill,User interface development,User interface development,User interface development
+Knowledge,Marketplace integrations,Marketplace integrations,Marketplace integrations
+Knowledge,Reporting,Reporting,Reporting
+Knowledge,Machine learning,Machine learning,Machine learning
+Other,Charging-as-a-Service platform,Charging-as-a-Service platform,Charging-as-a-Service platform
+Knowledge,DynamoDB,DynamoDB,DynamoDB
+Knowledge,CDK,CDK,CDK
+Knowledge,CloudFormation,CloudFormation,CloudFormation
+Knowledge,Serverless.com,Serverless.com,Serverless.com
+Knowledge,LLMs,LLMs,LLMs
+Knowledge,ChatGPT,ChatGPT,ChatGPT
+Knowledge,Product prototyping,Product prototyping,Product prototyping
+Skill,Customer engagement,Customer engagement,Customer engagement
+Other,Customer love,Customer love,Customer love
+Knowledge,Telco software development,Telco software development,Telco software development
+Skill,Product-driven approach,Product-driven approach,Product-driven approach
+Skill,Telecom industry expertise,Telecom industry expertise,Telecom industry expertise
+Skill,Engineering talent,Engineering talent,Engineering talent
+Knowledge,Public cloud technology.,Public cloud technology.,Public cloud technology.
+Knowledge,Software engineering,Software engineering,Software engineering
+Skill,Complex problem solving,Complex problem solving,Complex problem solving
+Ability,Impact-driven mindset,Impact-driven mindset,Impact-driven mindset
+Knowledge,Product development,Product development,Product development
+Knowledge,AI technology,AI technology,AI technology
+Skill,Learning and experimentation,Learning and experimentation,Learning and experimentation
+Knowledge,AWS serverless,AWS serverless,AWS serverless
+Knowledge,No-code/low-code patterns,No-code/low-code patterns,No-code/low-code patterns
+Skill,Talent management,Talent management,Talent management
+Knowledge,Generative AI,Generative AI,Generative AI
+Skill,Productivity enhancement,Productivity enhancement,Productivity enhancement
+Knowledge,Design thinking,Design thinking,Design thinking
+Skill,Decision-making,Decision-making,Decision-making
+Skill,Implementation strategies,Implementation strategies,Implementation strategies
+Knowledge,Cloud-native development,Cloud-native development,Cloud-native development
+Skill,Data processing,Data processing,Data processing
+Skill,Code review,Code review,Code review
+Knowledge,Server-side development,Server-side development,Server-side development
+Knowledge,Web applications,Web applications,Web applications
+Skill,Technical contribution,Technical contribution,Technical contribution
+Knowledge,Cloud patterns,Cloud patterns,Cloud patterns
+Skill,Openness to learning,Openness to learning,Openness to learning
+Knowledge,Customer-facing design,Customer-facing design,Customer-facing design
+Skill,Moon-shot ideas,Moon-shot ideas,Moon-shot ideas
+Knowledge,Cloud-based stack,Cloud-based stack,Cloud-based stack
+Knowledge,Talent acquisition,Talent acquisition,Talent acquisition
+Knowledge,Incubation,Incubation,Incubation
+Knowledge,Business development,Business development,Business development
+Other,Career growth,Career growth,Career growth
+Other,Technical and organizational barrier identification and navigation,Technical and organizational barrier identification and navigation,Technical and organizational barrier identification and navigation
+Other,Process and practice improvement,Process and practice improvement,Process and practice improvement
+Other,"Lean, agile, and domain driven engineering environment","Lean, agile, and domain driven engineering environment","Lean, agile, and domain driven engineering environment"
+Other,"Reliable, highly available, and highly scalable systems delivery","Reliable, highly available, and highly scalable systems delivery","Reliable, highly available, and highly scalable systems delivery"
+Other,"Collaboration with Product Managers, Program Managers, and stakeholders","Collaboration with Product Managers, Program Managers, and stakeholders","Collaboration with Product Managers, Program Managers, and stakeholders"
+Other,Accuracy checking and confirmation of work performed,Accuracy checking and confirmation of work performed,Accuracy checking and confirmation of work performed
+Other,"Creation of detailed engineering plans, processes, and procedures","Creation of detailed engineering plans, processes, and procedures","Creation of detailed engineering plans, processes, and procedures"
+Other,"Hiring, training, and supervision of engineering team members","Hiring, training, and supervision of engineering team members","Hiring, training, and supervision of engineering team members"
+Other,Timeline proposal and oversight for engineering projects,Timeline proposal and oversight for engineering projects,Timeline proposal and oversight for engineering projects
+Skill,Leadership of scrum teams,Leadership of scrum teams,Leadership of scrum teams
+Other,Validation tool development and implementation,Validation tool development and implementation,Validation tool development and implementation
+Skill,Agile methodology facilitation,Agile methodology facilitation,Agile methodology facilitation
+Other,SCRUM or Kanban experience,SCRUM or Kanban experience,SCRUM or Kanban experience
+Other,Product backlog consumption and technical design generation,Product backlog consumption and technical design generation,Product backlog consumption and technical design generation
+Other,"Solution design, code writing, and testing","Solution design, code writing, and testing","Solution design, code writing, and testing"
+Other,Mentoring and grooming of Lead engineers,Mentoring and grooming of Lead engineers,Mentoring and grooming of Lead engineers
+Other,COTS evaluation and management,COTS evaluation and management,COTS evaluation and management
+Other,RFP and technical proposal review and collaboration with vendors,RFP and technical proposal review and collaboration with vendors,RFP and technical proposal review and collaboration with vendors
+Other,"Financial management for team (budget, accruals, invoices, forecasts)","Financial management for team (budget, accruals, invoices, forecasts)","Financial management for team (budget, accruals, invoices, forecasts)"
+Other,Quality and content oversight for complex products and projects,Quality and content oversight for complex products and projects,Quality and content oversight for complex products and projects
+Other,"Advanced technical and business knowledge in software development life cycle, quality assurance, and project management.","Advanced technical and business knowledge in software development life cycle, quality assurance, and project management.","Advanced technical and business knowledge in software development life cycle, quality assurance, and project management."
+Knowledge,Software development,Software development,Software development
+Knowledge,Web-based applications,Web-based applications,Web-based applications
+Knowledge,HVAC sales strategy,HVAC sales strategy,HVAC sales strategy
+Knowledge,Electronic Catalog programs,Electronic Catalog programs,Electronic Catalog programs
+Knowledge,Code development,Code development,Code development
+Skill,Coaching,Coaching,Coaching
+Skill,Debugging,Debugging,Debugging
+Knowledge,Cloud-based design,Cloud-based design,Cloud-based design
+Knowledge,Agile development methodology,Agile development methodology,Agile development methodology
+Knowledge,Jenkins,Jenkins,Jenkins
+Skill,Task management,Task management,Task management
+Skill,Prioritization,Prioritization,Prioritization
+Knowledge,English proficiency,English proficiency,English proficiency
+Knowledge,Front-end technologies,Front-end technologies,Front-end technologies
+Knowledge,ReactJS,ReactJS,ReactJS
+Knowledge,AngularJS,AngularJS,AngularJS
+Knowledge,Server-side technologies,Server-side technologies,Server-side technologies
+Skill,Multi-tasking,Multi-tasking,Multi-tasking
+Skill,Customer service,Customer service,Customer service
+Skill,Results-oriented,Results-oriented,Results-oriented
+Skill,Deadline-driven,Deadline-driven,Deadline-driven
+Ability,Customer expectations,Customer expectations,Customer expectations
+Skill,Employee engagement,Employee engagement,Employee engagement
+Skill,Talent development,Talent development,Talent development
+Knowledge,Frontend experience,Frontend experience,Frontend experience
+Knowledge,React experience,React experience,React experience
+Knowledge,SPA experience,SPA experience,SPA experience
+Knowledge,Javascript experience,Javascript experience,Javascript experience
+Knowledge,HTML experience,HTML experience,HTML experience
+Knowledge,Digital marketing strategy,Marketing Strategy,Marketing Strategy
+Knowledge,CSS experience,CSS experience,CSS experience
+Knowledge,Github experience,Github experience,Github experience
+Knowledge,SaaS systems experience,SaaS systems experience,SaaS systems experience
+Knowledge,Startup experience,Startup experience,Startup experience
+Knowledge,Python experience,Python experience,Python experience
+Knowledge,GraphQL experience,GraphQL experience,GraphQL experience
+Knowledge,AWS experience,AWS experience,AWS experience
+Knowledge,DynamoDB experience,DynamoDB experience,DynamoDB experience
+Knowledge,Lambda experience,Lambda experience,Lambda experience
+Knowledge,Tableau familiarity,Tableau familiarity,Tableau familiarity
+Knowledge,Workflow management skills,Workflow management skills,Workflow management skills
+Knowledge,Mission critical thinking,Mission critical thinking,Mission critical thinking
+Skill,Remote work experience,Remote work experience,Remote work experience
+Skill,HR knowledge,HR knowledge,HR knowledge
+Skill,People analytics knowledge,People analytics knowledge,People analytics knowledge
+Ability,Workplace strategy knowledge,Workplace strategy knowledge,Workplace strategy knowledge
+Ability,Talent analytics knowledge,Talent analytics knowledge,Talent analytics knowledge
+Knowledge,Workforce management knowledge.,Workforce management knowledge.,Workforce management knowledge.
+Knowledge,Analysis,Demand analysis,Demand analysis
+Skill,Comprehension,Comprehension,Comprehension
+Knowledge,Financial events,Financial events,Financial events
+Knowledge,Data structure,Infrastructure support,Infrastructure support
+Skill,Product feature development,Product feature development,Product feature development
+Knowledge,Accounting,Accounting,Accounting
+Ability,Vision,Vision,Vision
+Ability,Value creation,Value creation,Value creation
+Ability,Musical empowerment,Musical empowerment,Musical empowerment
+Ability,Equity,Equity,Equity
+Skill,Performance evaluation,Performance evaluation,Performance evaluation
+Other,Benefits,Benefits,Benefits
+Other,Workplace safety,Workplace safety,Workplace safety
+Skill,Fast feedback cycles,Fast feedback cycles,Fast feedback cycles
+Skill,Pragmatic code,Pragmatic code,Pragmatic code
+Knowledge,Continuous deployment,Continuous deployment,Continuous deployment
+Skill,Experimentation,Experimentation,Experimentation
+Skill,Tech debt management,Tech debt management,Tech debt management
+Skill,Refactoring,Refactoring,Refactoring
+Other,Solid understanding of programming languages and frameworks,Solid understanding of programming languages and frameworks,Solid understanding of programming languages and frameworks
+Skill,Quick learning,Quick learning,Quick learning
+Knowledge,Ruby on Rails,Ruby on Rails,Ruby on Rails
+Knowledge,Postgres,Postgres,Postgres
+Knowledge,ElasticSearch,ElasticSearch,ElasticSearch
+Knowledge,Redis,Redis,Redis
+Knowledge,Unit testing,Unit testing,Unit testing
+Knowledge,Fullstack development,Fullstack development,Fullstack development
+Skill,User satisfaction,User satisfaction,User satisfaction
+Ability,Diversity,Diversity,Diversity
+Skill,Equity and inclusion,Equity and inclusion,Equity and inclusion
+Other,Equal employment opportunity,Equal employment opportunity,Equal employment opportunity
+Ability,Accommodation,Accommodation,Accommodation
+Other,Visa sponsorship,Visa sponsorship,Visa sponsorship
+Knowledge,Mobile software engineering,Mobile software engineering,Mobile software engineering
+Knowledge,Kotlin programming,Kotlin programming,Kotlin programming
+Knowledge,Swift programming,Swift programming,Swift programming
+Knowledge,Scripting,Scripting,Scripting
+Skill,Agile team environment,Agile team environment,Agile team environment
+Knowledge,Android app development,Android app development,Android app development
+Knowledge,iOS app development,iOS app development,iOS app development
+Knowledge,Software development lifecycle,Software development lifecycle,Software development lifecycle
+Knowledge,UI testing,UI testing,UI testing
+Knowledge,Bug fixing,Bug fixing,Bug fixing
+Knowledge,Computer science,Computer science,Computer science
+Knowledge,Engineering,Engineering,Engineering
+Knowledge,Mobile standards and protocols,Mobile standards and protocols,Mobile standards and protocols
+Knowledge,Commercial software development best practices,Commercial software development best practices,Commercial software development best practices
+Knowledge,Test-driven development,Test-driven development,Test-driven development
+Skill,Inclusiveness,Inclusiveness,Inclusiveness
+Skill,Inclusion,Inclusion,Inclusion
+Skill,Customer representation,Customer representation,Customer representation
+Other,Community building,Community building,Community building
+Other,Diversity and inclusion programs,Diversity and inclusion programs,Diversity and inclusion programs
+Skill,Critical thinking,Critical thinking,Critical thinking
+Skill,Interpersonal skills,Interpersonal skills,Interpersonal skills
+Skill,Global impact,Global impact,Global impact
+Ability,Personal and professional growth.,Personal and professional growth.,Personal and professional growth.
+Knowledge,Technical know-how,Technical know-how,Technical know-how
+Other,Strong understanding of software and service design,Strong understanding of software and service design,Strong understanding of software and service design
+Knowledge,Object-oriented software design,Object-oriented software design,Object-oriented software design
+Knowledge,Testing,Testing,Testing
+Other,Release,Release,Release
+Knowledge,Agile framework,Agile framework,Agile framework
+Other,Advocacy for agility,Advocacy for agility,Advocacy for agility
+Knowledge,Continuous improvement,Continuous improvement,Continuous improvement
+Knowledge,Technical standards,Technical standards,Technical standards
+Skill,Productivity,Productivity,Productivity
+Knowledge,Architecture for software development,Architecture for software development,Architecture for software development
+Knowledge,Industry best practices,Industry best practices,Industry best practices
+Skill,Hands-on experience,Hands-on experience,Hands-on experience
+Knowledge,Bachelor's Degree in Computer Science,Bachelor's Degree in Computer Science,Bachelor's Degree in Computer Science
+Skill,Proactivity,Proactivity,Proactivity
+Ability,Self-taught,Self-taught,Self-taught
+Other,Hybrid work model,Hybrid work model,Hybrid work model
+Other,Inclusive culture,Inclusive culture,Inclusive culture
+Other,Equality,Equality,Equality
+Other,Work-life balance,Work-life balance,Work-life balance
+Skill,Wellbeing,Wellbeing,Wellbeing
+Other,Comprehensive benefit plans,Comprehensive benefit plans,Comprehensive benefit plans
+Other,Flexible benefits,Flexible benefits,Flexible benefits
+Other,Mental Health Days Off,Mental Health Days Off,Mental Health Days Off
+Other,Headspace app subscription,Headspace app subscription,Headspace app subscription
+Other,Retirement,Retirement,Retirement
+Other,Savings,Savings,Savings
+Other,Tuition reimbursement,Tuition reimbursement,Tuition reimbursement
+Other,Employee incentive programs,Employee incentive programs,Employee incentive programs
+Other,"Resources for mental, physical, and financial wellbeing","Resources for mental, physical, and financial wellbeing","Resources for mental, physical, and financial wellbeing"
+Skill,Learning & Development,Learning & Development,Learning & Development
+Other,LinkedIn Learning access,LinkedIn Learning access,LinkedIn Learning access
+Other,Internal Talent Marketplace,Internal Talent Marketplace,Internal Talent Marketplace
+Other,Cross-company projects,Cross-company projects,Cross-company projects
+Other,Ten Thousand Coffees Thomson Reuters café networking,Ten Thousand Coffees Thomson Reuters café networking,Ten Thousand Coffees Thomson Reuters café networking
+Knowledge,Marketing intelligence,Marketing Mix Management,Marketing Mix Management
+Other,PPC (pay-per-click),PPC (pay-per-click),PPC (pay-per-click)
+Skill,Display advertising,Display advertising,Display advertising
+Knowledge,Social media marketing,Social media marketing,Social media marketing
+Skill,Content syndication,Content syndication,Content syndication
+Skill,Marketing automation,Marketing automation,Marketing automation
+Knowledge,IT security,IT security,IT security
+Knowledge,Cybersecurity operations,Cybersecurity,Cybersecurity
+Skill,Customer journey optimization,Customer orientation,Customer orientation
+Knowledge,Security best practices,Security,Security
+Knowledge,Security alerts,Security,Security
+Knowledge,Marketing returns analysis,Market Trend Analysis,Market Trend Analysis
+Knowledge,Security logs,Security,Security
+Knowledge,Multi-channel marketing,Multi-channel marketing,Multi-channel marketing
+Knowledge,Security incidents,Security,Security
+Knowledge,Incident response,Security Incident Response,Security Incident Response
+Knowledge,Vulnerability assessment,Vulnerability Management,Vulnerability Management
+Knowledge,Security weaknesses,Security,Security
+Knowledge,Security controls,Security,Security
+Other,Policies,Policies,Policies
+Other,Procedures,Procedures,Procedures
+Knowledge,Security technologies,Security technologies,Security technologies
+Ability,Lead generation,Lead generation,Lead generation
+Skill,Pipeline management,Pipeline management,Pipeline management
+Skill,Revenue targets,Revenue targets,Revenue targets
+Knowledge,Global campaigns,Global campaigns,Global campaigns
+Knowledge,Regional campaigns,Regional campaigns,Regional campaigns
+Skill,Bilingual (Spanish and English),Bilingual (Spanish and English),Bilingual (Spanish and English)
+Other,Remote work,Remote work,Remote work
+Knowledge,Agency management,Agency management,Agency management
+Skill,Third-party platform evaluation,Third-party platform evaluation,Third-party platform evaluation
+Skill,Email marketing,Email marketing,Email marketing
+Skill,Marketing automation platforms (e.g,Marketing automation,Marketing automation
+Skill,Landing page optimization,Landing page optimization,Landing page optimization
+Knowledge,SaaS platforms,SaaS platforms,SaaS platforms
+Skill,Performance analysis,Performance analysis,Performance analysis
+Skill,Digital signals,Digital signals,Digital signals
+Skill,Multitasking,Multi-tasking,Multi-tasking
+Knowledge,Product launch and post-launch management,Product management,Product management
+Skill,Design and development,Design and development,Design and development
+Knowledge,Testing and validation,Testing,Testing
+Knowledge,Fluent English,Fluent in English,Fluent in English
+Knowledge,Mexican Taxes knowledge,Mexican Taxes knowledge,Mexican Taxes knowledge
+Knowledge,Tax Business proficiency,Tax Business proficiency,Tax Business proficiency
+Skill,Fiscal/tax solutions familiarity,Fiscal/tax solutions familiarity,Fiscal/tax solutions familiarity
+Knowledge,Industry trends knowledge,Industry knowledge,Industry knowledge
+Skill,Hybrid work model adaptability,Hybrid work model adaptability,Hybrid work model adaptability
+Skill,Inclusive culture understanding,Inclusive culture understanding,Inclusive culture understanding
+Ability,Flexibility and work-life balance,Flexibility and work-life balance,Flexibility and work-life balance
+Ability,Purpose-driven work mindset.,Impact-driven mindset,Impact-driven mindset
+Knowledge,Distributed microservices,Distributed microservices,Distributed microservices
+Knowledge,Full stack systems,Full stack systems,Full stack systems
+Skill,Regulatory compliance,Regulatory compliance,Regulatory compliance
+Other,"Programming languages (JavaScript, Java, HTML/CSS, TypeScript, SQL, Python, Go)","Programming languages (JavaScript, Java, HTML/CSS, TypeScript, SQL, Python, Go)","Programming languages (JavaScript, Java, HTML/CSS, TypeScript, SQL, Python, Go)"
+Knowledge,Open source frameworks,Open source frameworks,Open source frameworks
+Knowledge,AWS tools and services,AWS tools and services,AWS tools and services
+Knowledge,"Container orchestration (Docker, Kubernetes)","Container orchestration (Docker, Kubernetes)","Container orchestration (Docker, Kubernetes)"
+Ability,People management,People management,People management
+Knowledge,Agile practices,Agile practices,Agile practices
+Knowledge,Intermediate-Advanced English fluency,Intermediate-Advanced English fluency,Intermediate-Advanced English fluency
+Knowledge,Bachelor's degree,Bachelor's degree,Bachelor's degree
+Other,"Experience with AWS, GCP, Microsoft Azure, or other cloud services","Experience with AWS, GCP, Microsoft Azure, or other cloud services","Experience with AWS, GCP, Microsoft Azure, or other cloud services"
+Knowledge,Experience in open source frameworks,Experience in open source frameworks,Experience in open source frameworks
+Knowledge,Experience in Agile practices,Experience in Agile practices,Experience in Agile practices
+Other,"Experience in at least one of the following: JavaScript, Java, TypeScript, SQL, Python, C#/.Net, Go","Experience in at least one of the following: JavaScript, Java, TypeScript, SQL, Python, C#/.Net, Go","Experience in at least one of the following: JavaScript, Java, TypeScript, SQL, Python, C#/.Net, Go"
+Skill,Experience in people management,Experience in people management,Experience in people management
+Other,Experience in software engineering (8+ years),Experience in software engineering (8+ years),Experience in software engineering (8+ years)
+Other,Experience in cloud computing (1+ years),Experience in cloud computing (1+ years),Experience in cloud computing (1+ years)
+Other,Experience in people management (4+ years),Experience in people management (4+ years),Experience in people management (4+ years)
+Other,"Experience in at least one of the following: JavaScript, Java, TypeScript, SQL, Python, C#/.Net, Go (9+ years)","Experience in at least one of the following: JavaScript, Java, TypeScript, SQL, Python, C#/.Net, Go (9+ years)","Experience in at least one of the following: JavaScript, Java, TypeScript, SQL, Python, C#/.Net, Go (9+ years)"
+Other,"Experience in at least one of the following: AWS, GCP, Microsoft Azure, or","Experience in at least one of the following: AWS, GCP, Microsoft Azure, or","Experience in at least one of the following: AWS, GCP, Microsoft Azure, or"
+Ability,Empowerment,Empowerment,Empowerment
+Ability,Ethics and values,Ethics and values,Ethics and values
+Knowledge,Financial industry knowledge,Financial industry knowledge,Financial industry knowledge
+Skill,Fluency in English and Spanish,Fluency in English and Spanish,Fluency in English and Spanish
+Skill,In-depth knowledge of project planning techniques,In-depth knowledge of project planning techniques,In-depth knowledge of project planning techniques
+Ability,Leadership skills,Leadership ,Leadership 
+Ability,Listening skills,Listening skills,Listening skills
+Skill,Multi-tasking skills,Multi-tasking,Multi-tasking
+Skill,Organizational change management,Adaptability,Adaptability
+Skill,Organizational skills,Organizational skills,Organizational skills
+Skill,Planning skills,Planning skills,Planning skills
+Knowledge,Performance optimization,Performance optimization,Performance optimization
+Ability,Relationship-building skills,Relationship building,Relationship building
+Knowledge,Continuous Integration,Continuous Integration,Continuous Integration
+Knowledge,Continuous Deployment,Continuous Deployment,Continuous Deployment
+Ability,Technical visioning,Technical visioning,Technical visioning
+Skill,Roadmapping,Roadmapping,Roadmapping
+Skill,Risk management,Risk management,Risk management
+Knowledge,Distributed computing,Distributed computing,Distributed computing
+Skill,Event planning,Event planning,Event planning
+Knowledge,Systems development methods,Systems development methods,Systems development methods
+Skill,Conference participation,Conference participation,Conference participation
+Knowledge,Technical knowledge,Technical know-how,Technical know-how
+Skill,Collaboration mindset,Collaboration,Collaboration
+Skill,Understanding of business goals,Business understanding skills,Business understanding skills
+Ability,Offsite coordination,Offsite coordination,Offsite coordination
+Skill,Analytics,Analytics,Analytics
+Ability,Strong partnership building skills,Relationship building,Relationship building
+Skill,Solution assessments,Solution assessments,Solution assessments
+Knowledge,Operational issue resolution,Operational issue resolution,Operational issue resolution
+Knowledge,Functional analysis,Functional analysis,Functional analysis
+Knowledge,Technical SAP skills,Technical SAP skills,Technical SAP skills
+Skill,Process improvement mindset,Adaptability,Adaptability
+Knowledge,Semiconductor design knowledge,Semiconductor design knowledge,Semiconductor design knowledge
+Knowledge,SAP capabilities,SAP capabilities,SAP capabilities
+Skill,Process-orientation,Process-orientation,Process-orientation
+Skill,Matrixed team collaboration,Collaboration,Collaboration
+Skill,Multi-tasking abilities,Multi-tasking,Multi-tasking
+Ability,Leadership and empowerment,Leadership ,Leadership 
+Knowledge,"ERP knowledge (PP, MM, WM, QM)","ERP knowledge (PP, MM, WM, QM)","ERP knowledge (PP, MM, WM, QM)"
+Knowledge,Standard SAP configuration,Standard SAP configuration,Standard SAP configuration
+Knowledge,Security awareness,Security awareness,Security awareness
+Other,Training,Training,Training
+Other,Special projects,Special projects,Special projects
+Other,Learning opportunities,Learning opportunities,Learning opportunities
+Knowledge,Operating systems,Operating systems,Operating systems
+Knowledge,Cybersecurity principles,Cybersecurity,Cybersecurity
+Other,Living in Mexico City,Living in Mexico City,Living in Mexico City
+Other,Competitive salary,Competitive salary,Competitive salary
+Other,Law benefits,Law benefits,Law benefits
+Other,Major medical expenses,Major medical expenses,Major medical expenses
+Other,Minor medical expenses,Minor medical expenses,Minor medical expenses
+Other,Life insurance,Life insurance,Life insurance
+Other,Transportation support,Transportation support,Transportation support
+Other,Cell phone support,Cell phone support,Cell phone support
+Other,Referral bonus.,Referral bonus.,Referral bonus.
+Other,Corporate culture,Corporate culture,Corporate culture
+Other,Solid values,Solid values,Solid values
+Other,Governance,Governance,Governance
+Knowledge,UI design,UI design,UI design
+Knowledge,Interaction design,Interaction design,Interaction design
+Knowledge,Digital design,Digital design,Digital design
+Knowledge,Usability testing,Usability testing,Usability testing
+Knowledge,Design standards,Design standards,Design standards
+Knowledge,Visual design,Visual design,Visual design
+Knowledge,Creative design solutions,Creative design solutions,Creative design solutions
+Knowledge,Information security,Information security,Information security
+Other,Consumer electronics,Consumer electronics,Consumer electronics
+Knowledge,Data security,Data security,Data security
+Other,Mobile devices,Mobile devices,Mobile devices
+Knowledge,Risk reduction,Risk reduction,Risk reduction
+Knowledge,Automotive design,Automotive design,Automotive design
+Knowledge,Data life cycle management,Data life cycle management,Data life cycle management
+Knowledge,Corporate data management,Corporate data management,Corporate data management
+Knowledge,HMI subsystems,HMI subsystems,HMI subsystems
+Knowledge,Master data management,Data protection management,Data protection management
+Knowledge,Risk & opportunity assessment,Product Risk Assessment,Product Risk Assessment
+Knowledge,User experience (UX),User experience (UX),User experience (UX)
+Knowledge,User interface (UI),User interface (UI),User interface (UI)
+Knowledge,Personal data processing,Personal data processing,Personal data processing
+Skill,Oral communication,Oral communication,Oral communication
+Knowledge,Adobe SC Suite,Adobe SC Suite,Adobe SC Suite
+Knowledge,Illustrator,Illustrator,Illustrator
+Knowledge,Figma,Figma,Figma
+Knowledge,Sketch,Sketch,Sketch
+Other,Federal Law in Mexico LFPDPPP,Federal Law in Mexico LFPDPPP,Federal Law in Mexico LFPDPPP
+Knowledge,Visio,Visio,Visio
+Knowledge,Microsoft Office,Microsoft Office,Microsoft Office
+Knowledge,3D modeling,3D modeling,3D modeling
+Knowledge,Axure,Axure,Axure
+Knowledge,Github,Github,Github
+Knowledge,Internal & external audits,Internal & external audits,Internal & external audits
+Knowledge,Jira,Jira,Jira
+Knowledge,Integrated development environment (IDE),Integrated development environment (IDE),Integrated development environment (IDE)
+Knowledge,Android Studio,Android Studio,Android Studio
+Knowledge,iOS,iOS,iOS
+Knowledge,Training and awareness,Training and awareness,Training and awareness
+Knowledge,QT,QT,QT
+Skill,Concept validation,Concept validation,Concept validation
+Skill,Driver assistance,Driver assistance,Driver assistance
+Knowledge,Digital technologies,Digital technologies,Digital technologies
+Other,Health care plan,Health care plan,Health care plan
+Other,Family leave,Family leave,Family leave
+Other,Training and development,Training and development,Training and development
+Other,Wellness resources.,Wellness resources.,Wellness resources.
+Knowledge,Information Security Management Systems (ISO27000/270001),Information Security Management Systems (ISO27000/270001),Information Security Management Systems (ISO27000/270001)
+Knowledge,Manufacturing process knowledge,Manufacturing process knowledge,Manufacturing process knowledge
+Ability,Consensus building,Consensus building,Consensus building
+Knowledge,Customization management,Customization management,Customization management
+Knowledge,External consulting management,External consulting management,External consulting management
+Knowledge,Stakeholder management,Stakeholder Management,Stakeholder Management
+Skill,Organization skills,Organization skills,Organization skills
+Knowledge,Relational Databases (e.g,Relational Databases,Relational Databases
+Knowledge,Bachelor's degree in Computer Science or Information Systems,Bachelor's Degree in Computer Science,Bachelor's Degree in Computer Science
+Knowledge,"Fluent in English (speaking, writing, reading)",Fluent in English,Fluent in English
+Skill,Key performance indicator monitoring,Key performance indicator monitoring,Key performance indicator monitoring
+Skill,Exposure to manufacturing environment,Exposure to manufacturing environment,Exposure to manufacturing environment
+Ability,Friendliness,Friendliness,Friendliness
+Knowledge,Test scenario creation,Test scenario creation,Test scenario creation
+Knowledge,Custom program specification documentation,Custom program specification documentation,Custom program specification documentation
+Knowledge,System configuration review,System configuration review,System configuration review
+Ability,Compassion,Compassion,Compassion
+Other,Master's degree (considered a plus),Master's degree (considered a plus),Master's degree (considered a plus)
+Other,Equal opportunity employer,Equal opportunity employer,Equal opportunity employer
+Ability,Diversity support.,Diversity,Diversity
+Knowledge,FrontEnd Developer,FrontEnd Developer,FrontEnd Developer
+Knowledge,AMD modules,AMD modules,AMD modules
+Knowledge,SQL writing,SQL writing,SQL writing
+Ability,Technical prowess,Technical prowess,Technical prowess
+Knowledge,Common JS Modules,Common JS Modules,Common JS Modules
+Ability,Relentless positivity,Relentless positivity,Relentless positivity
+Knowledge,Cloud experience,Cloud experience,Cloud experience
+Knowledge,GCP,GCP,GCP
+Ability,Self-motivation,Self-motivation,Self-motivation
+Knowledge,User Interface Design,User Interface Design,User Interface Design
+Knowledge,Python coding,Python,Python
+Knowledge,PCF,PCF,PCF
+Knowledge,Gitlab,Gitlab,Gitlab
+Knowledge,Web Design,Web Design,Web Design
+Knowledge,Single Page Application,Single Page Application,Single Page Application
+Other,Diversity and Inclusion,Diversity and Inclusion,Diversity and Inclusion
+Other,Fair Work Environment,Fair Work Environment,Fair Work Environment
+Other,"Environment, Social and Governance (ESG)","Environment, Social and Governance (ESG)","Environment, Social and Governance (ESG)"
+Other,CSR Commitment,CSR Commitment,CSR Commitment
+Knowledge,Product design,Product design,Product design
+Skill,Rapid prototyping,Rapid prototyping,Rapid prototyping
+Knowledge,Security concepts,Security,Security
+Knowledge,Security compliance,Security & compliance,Security & compliance
+Skill,Premier communication skills,Communication,Communication
+Skill,Translation skills,Translation skills,Translation skills
+Other,HTML/CSS,HTML/CSS,HTML/CSS
+Other,Client-facing,Client-facing,Client-facing
+Knowledge,SQL,SQL,SQL
+Knowledge,Go,Go,Go
+Knowledge,Microsoft Azure,Microsoft Azure,Microsoft Azure
+Knowledge,User-centered design,User-centered design,User-centered design
+Knowledge,Google Cloud,Google Cloud,Google Cloud
+Skill,Portfolio showcasing,Portfolio showcasing,Portfolio showcasing
+Other,"Design tools proficiency (Adobe Creative Suite, Sketch, Figma)","Design tools proficiency (Adobe Creative Suite, Sketch, Figma)","Design tools proficiency (Adobe Creative Suite, Sketch, Figma)"
+Knowledge,Understanding of security processes,Understanding of security processes,Understanding of security processes
+Skill,Client collaboration,Client collaboration,Client collaboration
+Other,Industry diversity,Industry diversity,Industry diversity
+Skill,Mentorship,Mentorship,Mentorship
+Knowledge,Legal document review,Legal document review,Legal document review
+Other,Fast-paced environment,Fast-paced environment,Fast-paced environment
+Skill,Drafting and negotiation skills,Drafting and negotiation skills,Drafting and negotiation skills
+Knowledge,Data analysis,Data analysis,Data analysis
+Knowledge,Knowledge base management,Knowledge base management,Knowledge base management
+Skill,Prioritization skills,Prioritization,Prioritization
+Ability,Self-motivation abilities,Self-motivation,Self-motivation
+Knowledge,Ethical standards,Ethical standards,Ethical standards
+Knowledge,Cybersecurity knowledge,Cybersecurity,Cybersecurity
+Knowledge,Compliance frameworks,Compliance frameworks,Compliance frameworks
+Other,Friendly demeanor,Friendly demeanor,Friendly demeanor
+Ability,Positive attitude,Positive attitude,Positive attitude
+Other,Workplace flexibility,Workplace flexibility,Workplace flexibility
+Other,Global diversity,Global diversity,Global diversity
+Knowledge,Cloud security architecture,Cloud security architecture,Cloud security architecture
+Knowledge,System development,Software development,Software development
+Knowledge,Cross-functional project management,Project management,Project management
+Other,O365,O365,O365
+Knowledge,Endpoint security,Endpoint security,Endpoint security
+Knowledge,IT principles,IT principles,IT principles
+Other,Reference architecture,Reference architecture,Reference architecture
+Knowledge,Technology standards,Technology standards,Technology standards
+Knowledge,Conceptual patterns,Conceptual patterns,Conceptual patterns
+Knowledge,Detailed design patterns,Detailed design patterns,Detailed design patterns
+Knowledge,Information technology infrastructure,Information technology infrastructure,Information technology infrastructure
+Knowledge,Network administration,Network administration,Network administration
+Knowledge,Systems administration,Systems administration,Systems administration
+Skill,Team-building,Team-building,Team-building
+Knowledge,Cyber-security threats,Cybersecurity,Cybersecurity
+Other,Controls,Controls,Controls
+Knowledge,Remediation strategies,Remediation strategies,Remediation strategies
+Other,TOGAF,TOGAF,TOGAF
+Other,Zachman,Zachman,Zachman
+Other,ITIL,ITIL,ITIL
+Knowledge,GEVA,GEVA,GEVA
+Knowledge,CySA+,CySA+,CySA+
+Other,ClickHouse experience,ClickHouse experience,ClickHouse experience
+Knowledge,Expert SQL knowledge,SQL,SQL
+Other,"MySQL, PostgreSQL, Oracle, SQL Server proficiency","MySQL, PostgreSQL, Oracle, SQL Server proficiency","MySQL, PostgreSQL, Oracle, SQL Server proficiency"
+Knowledge,Linux shell skills,Linux shell skills,Linux shell skills
+Knowledge,Bash scripting skills,Bash Scripting,Bash Scripting
+Skill,Ambiguity management,Ambiguity management,Ambiguity management
+Ability,Impactful design,Impactful design,Impactful design
+Ability,Dynamic team,Dynamic team,Dynamic team
+Knowledge,SaaS,SaaS,SaaS
+Knowledge,Mobile design,Mobile design,Mobile design
+Knowledge,Web design,Web design,Web design
+Other,Production-grade system experience,Production-grade system experience,Production-grade system experience
+Knowledge,User experience design.,User experience design.,User experience design.
+Other,Technical English writing and speaking skills,Technical English writing and speaking skills,Technical English writing and speaking skills
+Other,Distributed system concepts knowledge,Distributed system concepts knowledge,Distributed system concepts knowledge
+Other,Big data technology stack knowledge,Big data technology stack knowledge,Big data technology stack knowledge
+Other,"Programming language proficiency (Python, C++, Java, Go)","Programming language proficiency (Python, C++, Java, Go)","Programming language proficiency (Python, C++, Java, Go)"
+Other,CMS (e.g,CMS (e.g,CMS (e.g
+Other,"University degree in IT or math, or equivalent experience","University degree in IT or math, or equivalent experience","University degree in IT or math, or equivalent experience"
+Knowledge,Kubernetes knowledge,Kubernetes,Kubernetes
+Other,"Big data stack component experience (Hadoop, Spark, Kafka, Nifi)","Big data stack component experience (Hadoop, Spark, Kafka, Nifi)","Big data stack component experience (Hadoop, Spark, Kafka, Nifi)"
+Knowledge,Data science and data analysis experience,Analysis of data,Analysis of data
+Knowledge,Reporting and measurement,Reporting,Reporting
+Other,"SRE/DevOps stack knowledge (monitoring, system management tools)","SRE/DevOps stack knowledge (monitoring, system management tools)","SRE/DevOps stack knowledge (monitoring, system management tools)"
+Knowledge,Version control using git,"Version control (Git, Bitbucket)","Version control (Git, Bitbucket)"
+Knowledge,Strategy adjustment,Content Strategy,Content Strategy
+Other,Cultural diversity appreciation,Cultural diversity appreciation,Cultural diversity appreciation
+Ability,Continuous learning mindset, Continuous learning, Continuous learning
+Other,Willingness to try new technologies and roles,Willingness to try new technologies and roles,Willingness to try new technologies and roles
+Other,Open to travel for company events and conferences,Open to travel for company events and conferences,Open to travel for company events and conferences
+Knowledge,User-centered design principles,User-centered design principles,User-centered design principles
+Knowledge,User Experience (UX) Design,User Experience (UX) Design,User Experience (UX) Design
+Other,Presentation and contribution skills in open source communities,Presentation and contribution skills in open source communities,Presentation and contribution skills in open source communities
+Other,Equity in the company,Equity in the company,Equity in the company
+Skill,Development collaboration,Development collaboration,Development collaboration
+Other,Venture-funded and financially stable company experience.,Venture-funded and financially stable company experience.,Venture-funded and financially stable company experience.
+Knowledge,Fluent in Spanish and English,Fluent in English,Fluent in English
+Other,Expertise in physical infrastructure and support systems for IT and IT related equipment,Expertise in physical infrastructure and support systems for IT and IT related equipment,Expertise in physical infrastructure and support systems for IT and IT related equipment
+Other,Technical advice and planning skills,Technical advice and planning skills,Technical advice and planning skills
+Knowledge,Comms/PR/AR integration,Comms/PR/AR integration,Comms/PR/AR integration
+Other,Design and implementation abilities,Design and implementation abilities,Design and implementation abilities
+Other,Construction and commissioning experience,Construction and commissioning experience,Construction and commissioning experience
+Other,Strategic thinking and planning capabilities,Strategic thinking and planning capabilities,Strategic thinking and planning capabilities
+Other,Knowledge of data center operations and performance requirements,Knowledge of data center operations and performance requirements,Knowledge of data center operations and performance requirements
+Other,Experience and advanced education in Electrical Engineering,Experience and advanced education in Electrical Engineering,Experience and advanced education in Electrical Engineering
+Other,Emergency/Disaster planning expertise,Emergency/Disaster planning expertise,Emergency/Disaster planning expertise
+Other,Environment planning knowledge,Environment planning knowledge,Environment planning knowledge
+Knowledge,Artificial Intelligence (AI),Artificial Intelligence (AI),Artificial Intelligence (AI)
+Knowledge,Fire protection planning skills,Fire protection planning skills,Fire protection planning skills
+Knowledge,Agile methodologies,Agile methodologies,Agile methodologies
+Other,Mechanical Engineering experience,Mechanical Engineering experience,Mechanical Engineering experience
+Knowledge,Object oriented programming,Object oriented programming,Object oriented programming
+Knowledge,Relational databases,Relational Databases,Relational Databases
+Other,Data center design proficiency,Data center design proficiency,Data center design proficiency
+Knowledge,Database design,Database design,Database design
+Knowledge,Machine Learning,Machine Learning,Machine Learning
+Knowledge,Cabling knowledge,Cabling knowledge,Cabling knowledge
+Knowledge,Database Management,Database Management,Database Management
+Knowledge,Consolidation and relocation experience,Consolidation and relocation experience,Consolidation and relocation experience
+Knowledge,Physical security expertise,Physical security expertise,Physical security expertise
+Skill,Diversity and inclusion mindset,Diversity and inclusion awareness.,Diversity and inclusion awareness.
+Other,Fortune 100 client management experience,Fortune 100 client management experience,Fortune 100 client management experience
+Skill,Innovation and problem-solving abilities,Problem solving,Problem solving
+Ability,Strong relationship building skills,Relationship building,Relationship building
+Knowledge,Process improvement capabilities,Process improvement and optimisation,Process improvement and optimisation
+Ability,Value creation mindset,Value creation,Value creation
+Other,Focus on employee well-being,Focus on employee well-being,Focus on employee well-being
+Other,Comprehensive benefits knowledge,Comprehensive benefits knowledge,Comprehensive benefits knowledge
+Knowledge,Commitment to learning and development,Learning and Development,Learning and Development
+Knowledge,Certification attainment skills,Certification,Certification
+Ability,Volunteering and giving mindset,Volunteering and giving mindset,Volunteering and giving mindset
+Skill,Ability to work collaboratively,Collaboration,Collaboration
+Other,Global brand consistency,Global brand consistency,Global brand consistency
+Other,Message alignment,Message alignment,Message alignment
+Other,Ability to bring one's whole self to work,Ability to bring one's whole self to work,Ability to bring one's whole self to work
+Other,Support for equitable culture activation,Support for equitable culture activation,Support for equitable culture activation
+Knowledge,Best practices sharing,Industry best practices,Industry best practices
+Other,State-of-the-art resource utilization skills,State-of-the-art resource utilization skills,State-of-the-art resource utilization skills
+Knowledge,Implementation of security technologies,Implementation of security technologies,Implementation of security technologies
+Knowledge,Support for security technologies,Security technologies,Security technologies
+Knowledge,Core security processes,Core security processes,Core security processes
+Knowledge,Vulnerability management,Vulnerability Management,Vulnerability Management
+Knowledge,Threat analysis,Threat Analysis and Defence,Threat Analysis and Defence
+Knowledge,Security monitoring,Security monitoring,Security monitoring
+Knowledge,Identity and access management,Identity and access management,Identity and access management
+Knowledge,AppSec reviews,AppSec reviews,AppSec reviews
+Knowledge,Red teaming,Red teaming,Red teaming
+Knowledge,Process automation,Process automation,Process automation
+Other,Orchestration,Orchestration,Orchestration
+Knowledge,KPI reporting,KPI reporting,KPI reporting
+Other,Operational effectiveness,Operational effectiveness,Operational effectiveness
+Other,Controls health,Controls health,Controls health
+Knowledge,Bachelor's degree in IT,Bachelor's degree in IT,Bachelor's degree in IT
+Knowledge,Chinese Mandarin fluency,Chinese Mandarin fluency,Chinese Mandarin fluency
+Knowledge,English fluency,Fluent in English,Fluent in English
+Other,5-8 years of relevant work experience,5-8 years of relevant work experience,5-8 years of relevant work experience
+Knowledge,Security and technology certifications,Security and technology certifications,Security and technology certifications
+Skill,Clear communication,Communication,Communication
+Ability,Time management skills,Time management,Time management
+Skill,Ability to work under pressure,Ability to work under pressure,Ability to work under pressure
+Ability,Building relationships,Relationship building,Relationship building
+Skill,Sensitivity,Sensitivity,Sensitivity
+Skill,Quick learner,Quick learning,Quick learning
+Other,Proficiency in relevant computer systems,Proficiency in relevant computer systems,Proficiency in relevant computer systems
+Skill,Ability to work independently,Ability to work independently,Ability to work independently
+Other,Non-standard work hours,Non-standard work hours,Non-standard work hours
+Other,On-call availability,On-call availability,On-call availability
+Other,Travel,Travel,Travel
+Other,Elective benefits,Elective benefits,Elective benefits
+Other,Personal,Personal,Personal
+Skill,Entrepreneurial mindset,Entrepreneurial mindset,Entrepreneurial mindset
+Skill,Ability to think big,Ability to think big,Ability to think big
+Ability,Curiosity about science,Curiosity,Curiosity
+Skill,Swift decision-making skills,decision making,decision making
+Ability,Confidence in leadership,Leadership ,Leadership 
+Skill,Ability to work in a team,Collaboration,Collaboration
+Other,Comfortable being oneself at work,Comfortable being oneself at work,Comfortable being oneself at work
+Other,Ability to maintain one's best self,Ability to maintain one's best self,Ability to maintain one's best self
+Knowledge,Knowledge of infrastructure security,Knowledge of infrastructure security,Knowledge of infrastructure security
+Knowledge,Knowledge of IT operations,Knowledge of IT operations,Knowledge of IT operations
+Other,Knowledge of end user services and technologies,Knowledge of end user services and technologies,Knowledge of end user services and technologies
+Knowledge,Cyber security governance,Cybersecurity,Cybersecurity
+Knowledge,Strategy development,Strategy development,Strategy development
+Knowledge,Operational deployment,Operational deployment,Operational deployment
+Knowledge,Risk analysis,Risk analysis,Risk analysis
+Knowledge,IT/Cyber security experience,Cybersecurity,Cybersecurity
+Knowledge,Manufacturing experience,Manufacturing experience,Manufacturing experience
+Ability,Commitment to results,Commitment,Commitment
+Other,Technical background,Technical background,Technical background
+Knowledge,Systems protection,Systems protection,Systems protection
+Knowledge,Network protection,Network protection,Network protection
+Knowledge,SCADA security,SCADA security,SCADA security
+Other,Master's degree in Computer Science,Master's degree in Computer Science,Master's degree in Computer Science
+Other,Master's degree in Cyber Security,Master's degree in Cyber Security,Master's degree in Cyber Security
+Knowledge,Information security policies and procedures development,Information security,Information security
+Knowledge,Security assessments and audits,Security Assessment and Testing,Security Assessment and Testing
