@@ -201,21 +201,32 @@ with st.container():
 
     golden_df2 = pd.DataFrame()
     
-    st.subheader("Competences list")
-    st.write(len(cleaned_items))
+
+    _ii = 0
+
+    pendingItems = []
+
+    for item in cleaned_items:
+        if item in golden_df["Text"].values:
+            _ii += 1
+        else:
+            pendingItems.append(item)
+
+    st.subheader(f"Competences list   {len(pendingItems)}/{len(cleaned_items)}")
+
     i = 0
 
 
     # Get first n cleaned_items items:
     # TODO: try pagination, if not, increase batch_size from time to time untill all reached
-    batch_size = 7
+    batch_size = 1
 
-    if len(cleaned_items) >= batch_size:
-        cleaned_items = cleaned_items[0:batch_size]
+    if len(pendingItems) >= batch_size:
+        pendingItems = pendingItems[0:batch_size]
     else:
-        cleaned_items = cleaned_items[0:len(cleaned_items)]
+        pendingItems = pendingItems[0:len(pendingItems)]
 
-    for item in cleaned_items:
+    for item in pendingItems:
         # Your code to process each item goes here
         similar_ngrams = []
         similar_thefuzz = []
