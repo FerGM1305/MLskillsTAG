@@ -169,7 +169,7 @@ def getSimilarNgrams(_item):
 def fuzz_similarity(word1, word2):
     #return fuzz.ratio(word1, word2)
     #return fuzz.partial_token_sort_ratio(word1, word2)
-    return fuzz.token_sort_ratio(word1, word2)
+    return fuzz.token_sort_ratio(str(word1).lower(), str(word2).lower())
 
 def getSimilarFuzz(_item):
     _sim = set()
@@ -179,7 +179,7 @@ def getSimilarFuzz(_item):
     max_sim = 0
     for golden in golden_df["Text"].values:
         sim = fuzz_similarity(golden, _item)
-        if sim > 70:
+        if sim > 50:
             max_sim += 1
             if max_sim > 3:
                 break
