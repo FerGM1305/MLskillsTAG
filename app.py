@@ -19,9 +19,6 @@ if 'occ' not in st.session_state:
 golden_csv = "./golden_ksa.csv"
 golden_df = pd.read_csv(golden_csv)
 
-#nesta_csv = "./nesta_ksa.csv"
-#nesta_df = pd.read_csv(nesta_csv)
-
 occ_csv = "./infocomm_occupations.csv"
 occ_df = pd.read_csv(occ_csv)
 
@@ -67,12 +64,14 @@ if st.sidebar.button('Next occ', key='nextOcc'):
     st.session_state.occ += 1
     if st.session_state.occ >= len(occ_df):
         st.session_state.occ = 0
+    st.rerun()
 
 if st.session_state.occ > 0:
     if st.sidebar.button('Prev occ'):
         st.session_state.occ -= 1
         if st.session_state.occ < 0:
             st.session_state.occ = 0
+        st.rerun()
 
 
 st.sidebar.title(occ[0])
@@ -82,12 +81,14 @@ if st.sidebar.button('Next rec'):
     st.session_state.rec += 1
     if st.session_state.rec >= len(gpt35turbo_df):
         st.session_state.rec = 0
+    st.rerun()
 
 if st.session_state.rec > 0:
     if st.sidebar.button('Prev rec'):
         st.session_state.rec -= 1
         if st.session_state.rec < 0:
             st.session_state.rec = 0
+        st.rerun()
 
 showAnnotated = st.sidebar.checkbox('Show annotated')
 
@@ -201,13 +202,25 @@ with st.container():
     golden_df2 = pd.DataFrame()
     
     st.subheader("Competences list")
+    st.write(len(cleaned_items))
     i = 0
-    for item in cleaned_items:
 
+
+    # Get first n cleaned_items items:
+    # TODO: try pagination, if not, increase batch_size from time to time untill all reached
+    batch_size = 7
+
+    if len(cleaned_items) >= batch_size:
+        cleaned_items = cleaned_items[0:batch_size]
+    else:
+        cleaned_items = cleaned_items[0:len(cleaned_items)]
+
+    for item in cleaned_items:
+        # Your code to process each item goes here
         similar_ngrams = []
         similar_thefuzz = []
 
-        if item in golden_df["Text"].values:
+        if item in golden_df["Text"].values: # Javascript != JavaScript
             if showAnnotated:
                 index = golden_df.index[golden_df["Text"] == item].tolist()[0]
                 if golden_df.at[index, 'Label'] == "Knowledge":
@@ -219,21 +232,9 @@ with st.container():
                 else:
                     st.write(item + " ⚪️ (golden)")
                 st.divider()
-        # elif item in nesta_df["Text"].values:
-        #     if showAnnotated:
-        #         index = nesta_df.index[nesta_df["Text"] == item].tolist()[0]
-        #         if nesta_df.at[index, 'Label'] == "Knowledge":
-        #             st.write(item + " 🟢 (nesta)")
-        #         elif nesta_df.at[index, 'Label'] == "Skill":
-        #             st.write(item + " 🔵 (nesta)")
-        #         elif nesta_df.at[index, 'Label'] == "Ability": 
-        #             st.write(item + " 🟡 (nesta)")
-        #         else:
-        #             st.write(item + " ⚪️ (nesta)")
-        #         st.divider()
         else:
             st.write(item + " 🔴")
-            col1, col2, col3, col4, col5 = st.columns([1,1,1,1,8])
+            col1, col2, col3, col4, col5, col6, col7 = st.columns([1,1,1,1,1,3,4])
             with col1:
                 with stylable_container(
                     "greenK",
@@ -290,7 +291,44 @@ with st.container():
                         golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
                         golden_df2.to_csv("golden_ksa.csv", index=False)
                         st.rerun()
+            
+            with col5:
+                ksa_option = st.selectbox(
+                    'a',
+                    ('🍭', 'K', 'S', 'A', 'O'),
+                    label_visibility="collapsed",
+                    key = "ksa_input" + str(i)
+                )
+                
+            with col6:
+                new_ksa = st.text_input(
+                    "Enter new KSA",
+                    label_visibility="collapsed",
+                    placeholder="Add new",
+                    key = item + "ksa_input" + str(i)
+                )
+                
+            with col7:
+                if st.button("Add", key = item + "btn" + str(i)):                        
+                    # Temp hack for streamlit selectbox until value != label is available.
+                    _ksa_type = ""
+                    if ksa_option == "K":
+                        _ksa_type = "Knowledge"
+                    elif ksa_option == "S":
+                        _ksa_type = "Skill"
+                    elif ksa_option == "A":
+                        _ksa_type = "Ability"
+                    elif ksa_option == "O":
+                        _ksa_type = "Other"
+                    
+                    #st.write(f"{_ksa_type}, {new_ksa}")
 
+                    new_row = pd.DataFrame({'Label': [_ksa_type], 'Text': [item], 'Standard text': [new_ksa], 'Desc': [new_ksa]})
+                    golden_df2 = pd.concat([golden_df, new_row], ignore_index=True)
+                    golden_df2.to_csv("golden_ksa.csv", index=False)
+                    st.rerun()
+                
+                
             #ngrams
             #st.write("ngrams (2)")
             similar_ngrams = getSimilarNgrams(item)
@@ -338,7 +376,6 @@ with st.container():
    
 
 with st.container():
-    st.divider()
     st.subheader("Original job post description")
     st.write(job_desc)
     st.divider()
