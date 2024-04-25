@@ -212,8 +212,7 @@ with st.container():
         else:
             pendingItems.append(item)
 
-    _sofar = len(cleaned_items) - len(pendingItems)
-    st.subheader(f"Competences list   {_sofar}/{len(cleaned_items)}")
+    st.subheader(f"Competences list   {_ii}/{len(cleaned_items)}")
 
     i = 0
 
