@@ -175,23 +175,26 @@ def fuzz_similarity(word1, word2):
 def getSimilarFuzz(_item):
     _sim = set()
 
-    #get max 3 similar items from 'Text' and 'Standard text'
-
-    max_sim = 0
+    # Calculate similarity for all items
+    similarities = []
     for golden in golden_df["Text"].values:
         sim = fuzz_similarity(golden, _item)
         if sim > 50:
-            max_sim += 1
-            if max_sim > 3:
-                break
-            #_sim.add(golden + " (" + str(sim) + ")")
             index = golden_df.index[golden_df["Text"] == golden].tolist()[0]
             _ksa = golden_df.at[index, 'Label']
-            #Get standard text for button
             goldenStandardText = golden_df.at[index, 'Standard text']
             if _ksa != "Other":
-                _sim.add((_ksa,goldenStandardText))
+                similarities.append((_ksa, goldenStandardText, sim))
+
+    # Sort similarities by similarity score in descending order
+    similarities.sort(key=lambda x: x[2], reverse=True)
+
+    # Get top 3 similar items
+    for sim in similarities[:3]:
+        _sim.add((sim[0], sim[1]))
+
     return list(_sim)
+
 
 
 with st.container():
